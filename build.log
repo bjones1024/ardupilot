@@ -1,0 +1,1474 @@
+Waf: Entering directory `/src/ardupilot/build/bjpilot'
+[3/4] Processing modules/mavlink/message_definitions/v1.0/ardupilotmega.xml
+[4/4] Creating build/bjpilot/ap_version.h
+Validating /src/ardupilot/modules/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Parsing /src/ardupilot/modules/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Note: message DATA64 is longer than 64 bytes long (74 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message DATA96 is longer than 64 bytes long (106 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message REMOTE_LOG_DATA_BLOCK is longer than 64 bytes long (214 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message DEVICE_OP_READ_REPLY is longer than 64 bytes long (143 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message DEVICE_OP_WRITE is longer than 64 bytes long (187 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Validating /src/ardupilot/modules/mavlink/message_definitions/v1.0/common.xml
+Parsing /src/ardupilot/modules/mavlink/message_definitions/v1.0/common.xml
+Note: message GPS_STATUS is longer than 64 bytes long (109 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message ATTITUDE_QUATERNION_COV is longer than 64 bytes long (80 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message GLOBAL_POSITION_INT_COV is longer than 64 bytes long (189 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message LOCAL_POSITION_NED_COV is longer than 64 bytes long (233 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message HIL_ACTUATOR_CONTROLS is longer than 64 bytes long (89 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message HIGHRES_IMU is longer than 64 bytes long (70 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message HIL_SENSOR is longer than 64 bytes long (72 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message SIM_STATE is longer than 64 bytes long (92 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message FILE_TRANSFER_PROTOCOL is longer than 64 bytes long (262 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message HIL_STATE_QUATERNION is longer than 64 bytes long (72 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message LOG_DATA is longer than 64 bytes long (105 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message GPS_INJECT_DATA is longer than 64 bytes long (121 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message SERIAL_CONTROL is longer than 64 bytes long (87 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message ENCAPSULATED_DATA is longer than 64 bytes long (263 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message RESOURCE_REQUEST is longer than 64 bytes long (251 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message FOLLOW_TARGET is longer than 64 bytes long (101 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message CONTROL_SYSTEM_STATE is longer than 64 bytes long (108 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message AUTOPILOT_VERSION is longer than 64 bytes long (68 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message GPS_INPUT is longer than 64 bytes long (71 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message GPS_RTCM_DATA is longer than 64 bytes long (190 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message V2_EXTENSION is longer than 64 bytes long (262 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message CAMERA_INFORMATION is longer than 64 bytes long (94 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message CAMERA_IMAGE_CAPTURED is longer than 64 bytes long (263 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message LOGGING_DATA is longer than 64 bytes long (263 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Note: message LOGGING_DATA_ACKED is longer than 64 bytes long (263 bytes), which can cause fragmentation since many radio modems use 64 bytes as maximum air transfer unit.
+Validating /src/ardupilot/modules/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /src/ardupilot/modules/mavlink/message_definitions/v1.0/uAvionix.xml
+Merged enum MAV_CMD
+Found 206 MAVLink message types in 3 XML files
+Generating C implementation in directory /src/ardupilot/build/bjpilot/libraries/GCS_MAVLink/include/mavlink/v2.0/ardupilotmega
+Generating C implementation in directory /src/ardupilot/build/bjpilot/libraries/GCS_MAVLink/include/mavlink/v2.0/common
+Generating C implementation in directory /src/ardupilot/build/bjpilot/libraries/GCS_MAVLink/include/mavlink/v2.0/uAvionix
+Copying fixed headers for protocol 2.0 to /src/ardupilot/build/bjpilot/libraries/GCS_MAVLink/include/mavlink/v2.0
+
+[ 101/1506] Checking included headers libraries/AP_Gripper/AP_Gripper.cpp
+[ 102/1506] Checking included headers libraries/AP_Gripper/AP_Gripper_Backend.cpp
+[ 103/1506] Checking included headers libraries/AP_Gripper/AP_Gripper_EPM.cpp
+[ 104/1506] Checking included headers libraries/AP_Gripper/AP_Gripper_Servo.cpp
+[ 105/1506] Checking included headers libraries/AP_ICEngine/AP_ICEngine.cpp
+[ 106/1506] Checking included headers libraries/AP_IRLock/AP_IRLock_I2C.cpp
+[ 107/1506] Checking included headers libraries/AP_IRLock/AP_IRLock_SITL.cpp
+[ 108/1506] Checking included headers libraries/AP_IRLock/IRLock.cpp
+[ 109/1506] Checking included headers libraries/AP_InertialNav/AP_InertialNav_NavEKF.cpp
+[ 110/1506] Checking included headers libraries/AP_InertialSensor/AP_InertialSensor_BMI160.cpp
+[ 111/1506] Checking included headers libraries/AP_InertialSensor/AP_InertialSensor_Backend.cpp
+[ 112/1506] Checking included headers libraries/AP_InertialSensor/AP_InertialSensor_HIL.cpp
+[ 113/1506] Checking included headers libraries/AP_InertialSensor/AP_InertialSensor_L3G4200D.cpp
+[ 114/1506] Checking included headers libraries/AP_InertialSensor/AP_InertialSensor_LSM9DS0.cpp
+[ 115/1506] Checking included headers libraries/AP_InertialSensor/AP_InertialSensor_MPU6000.cpp
+[ 116/1506] Checking included headers libraries/AP_InertialSensor/AP_InertialSensor_MPU9250.cpp
+[ 117/1506] Checking included headers libraries/AP_InertialSensor/AP_InertialSensor_PX4.cpp
+[ 118/1506] Checking included headers libraries/AP_InertialSensor/AP_InertialSensor_QURT.cpp
+[ 119/1506] Checking included headers libraries/AP_InertialSensor/AP_InertialSensor_SITL.cpp
+[ 120/1506] Checking included headers libraries/AP_InertialSensor/AP_InertialSensor_UserInteract_MAVLink.cpp
+[ 121/1506] Checking included headers libraries/AP_InertialSensor/AP_InertialSensor_UserInteract_Stream.cpp
+[ 122/1506] Checking included headers libraries/AP_InertialSensor/AP_InertialSensor_qflight.cpp
+[ 123/1506] Checking included headers libraries/AP_InertialSensor/AuxiliaryBus.cpp
+[ 124/1506] Checking included headers libraries/AP_L1_Control/AP_L1_Control.cpp
+[ 125/1506] Checking included headers libraries/AP_Landing/AP_Landing.cpp
+[ 126/1506] Checking included headers libraries/AP_Landing/AP_Landing_Slope.cpp
+[ 127/1506] Checking included headers libraries/AP_LandingGear/AP_LandingGear.cpp
+[ 128/1506] Checking included headers libraries/AP_Math/AP_GeodesicGrid.cpp
+[ 129/1506] Checking included headers libraries/AP_Math/AP_Math.cpp
+[ 130/1506] Checking included headers libraries/AP_Math/edc.cpp
+[ 131/1506] Checking included headers libraries/AP_Math/location.cpp
+[ 132/1506] Checking included headers libraries/AP_Math/matrix3.cpp
+[ 133/1506] Checking included headers libraries/AP_Math/matrix_alg.cpp
+[ 134/1506] Checking included headers libraries/AP_Math/polygon.cpp
+[ 135/1506] Checking included headers libraries/AP_Math/quaternion.cpp
+[ 136/1506] Checking included headers libraries/AP_Math/vector2.cpp
+[ 137/1506] Checking included headers libraries/AP_Math/vector3.cpp
+[ 138/1506] Checking included headers libraries/AP_Menu/AP_Menu.cpp
+[ 139/1506] Checking included headers libraries/AP_Module/AP_Module.cpp
+[ 140/1506] Checking included headers libraries/AP_Motors/AP_MotorsCoax.cpp
+[ 141/1506] Checking included headers libraries/AP_Motors/AP_MotorsHeli.cpp
+[ 142/1506] Checking included headers libraries/AP_Motors/AP_MotorsHeli_RSC.cpp
+[ 143/1506] Checking included headers libraries/AP_Motors/AP_MotorsHeli_Single.cpp
+[ 144/1506] Checking included headers libraries/AP_Motors/AP_MotorsHexa.cpp
+[ 145/1506] Checking included headers libraries/AP_Motors/AP_MotorsMatrix.cpp
+[ 146/1506] Checking included headers libraries/AP_Motors/AP_MotorsMulticopter.cpp
+[ 147/1506] Checking included headers libraries/AP_Motors/AP_MotorsOcta.cpp
+[ 148/1506] Checking included headers libraries/AP_Motors/AP_MotorsOctaQuad.cpp
+[ 149/1506] Checking included headers libraries/AP_Motors/AP_MotorsQuad.cpp
+[ 150/1506] Checking included headers libraries/AP_Motors/AP_MotorsSingle.cpp
+[ 151/1506] Checking included headers libraries/AP_Motors/AP_MotorsTri.cpp
+[ 152/1506] Checking included headers libraries/AP_Motors/AP_MotorsY6.cpp
+[ 153/1506] Checking included headers libraries/AP_Motors/AP_Motors_Class.cpp
+[ 154/1506] Checking included headers libraries/AP_Mount/AP_Mount.cpp
+[ 155/1506] Checking included headers libraries/AP_Mount/AP_Mount_Alexmos.cpp
+[ 156/1506] Checking included headers libraries/AP_Mount/AP_Mount_Backend.cpp
+[ 157/1506] Checking included headers libraries/AP_Mount/AP_Mount_SToRM32.cpp
+[ 158/1506] Checking included headers libraries/AP_Mount/AP_Mount_SToRM32_serial.cpp
+[ 159/1506] Checking included headers libraries/AP_Mount/AP_Mount_Servo.cpp
+[ 160/1506] Checking included headers libraries/AP_Mount/AP_Mount_SoloGimbal.cpp
+[ 161/1506] Checking included headers libraries/AP_Mount/SoloGimbal.cpp
+[ 162/1506] Checking included headers libraries/AP_Mount/SoloGimbalEKF.cpp
+[ 163/1506] Checking included headers libraries/AP_Mount/SoloGimbal_Parameters.cpp
+[ 164/1506] Checking included headers libraries/AP_NavEKF2/AP_NavEKF2_AirDataFusion.cpp
+[ 165/1506] Checking included headers libraries/AP_NavEKF2/AP_NavEKF2_Control.cpp
+[ 166/1506] Checking included headers libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp
+[ 167/1506] Checking included headers libraries/AP_NavEKF2/AP_NavEKF2_Measurements.cpp
+[ 168/1506] Checking included headers libraries/AP_NavEKF2/AP_NavEKF2_OptFlowFusion.cpp
+[ 169/1506] Checking included headers libraries/AP_NavEKF2/AP_NavEKF2_Outputs.cpp
+[ 170/1506] Checking included headers libraries/AP_NavEKF2/AP_NavEKF2_PosVelFusion.cpp
+[ 171/1506] Checking included headers libraries/AP_NavEKF2/AP_NavEKF2_RngBcnFusion.cpp
+[ 172/1506] Checking included headers libraries/AP_NavEKF2/AP_NavEKF2_VehicleStatus.cpp
+[ 173/1506] Checking included headers libraries/AP_NavEKF2/AP_NavEKF2_core.cpp
+[ 174/1506] Checking included headers libraries/AP_NavEKF2/AP_NavEKF_GyroBias.cpp
+[ 175/1506] Checking included headers libraries/AP_Notify/AP_BoardLED.cpp
+[ 176/1506] Checking included headers libraries/AP_Notify/AP_Notify.cpp
+[ 177/1506] Checking included headers libraries/AP_Notify/Buzzer.cpp
+[ 178/1506] Checking included headers libraries/AP_Notify/DiscoLED.cpp
+[ 179/1506] Checking included headers libraries/AP_Notify/DiscreteRGBLed.cpp
+[ 180/1506] Checking included headers libraries/AP_Notify/Display.cpp
+[ 181/1506] Checking included headers libraries/AP_Notify/Display_SSD1306_I2C.cpp
+[ 182/1506] Checking included headers libraries/AP_Notify/ExternalLED.cpp
+[ 183/1506] Checking included headers libraries/AP_Notify/NavioLED.cpp
+[ 184/1506] Checking included headers libraries/AP_Notify/NavioLED_I2C.cpp
+[ 185/1506] Checking included headers libraries/AP_Notify/OreoLED_PX4.cpp
+[ 186/1506] Checking included headers libraries/AP_Notify/RCOutputRGBLed.cpp
+[ 187/1506] Checking included headers libraries/AP_Notify/RGBLed.cpp
+[ 188/1506] Checking included headers libraries/AP_Notify/ToneAlarm_Linux.cpp
+[ 189/1506] Checking included headers libraries/AP_Notify/ToneAlarm_PX4.cpp
+[ 190/1506] Checking included headers libraries/AP_Notify/ToneAlarm_PX4_Solo.cpp
+[ 191/1506] Checking included headers libraries/AP_Notify/ToshibaLED.cpp
+[ 192/1506] Checking included headers libraries/AP_Notify/ToshibaLED_I2C.cpp
+[ 193/1506] Checking included headers libraries/AP_Notify/ToshibaLED_PX4.cpp
+[ 194/1506] Checking included headers libraries/AP_Notify/VRBoard_LED.cpp
+[ 195/1506] Checking included headers libraries/AP_OpticalFlow/AP_OpticalFlow_Onboard.cpp
+[ 196/1506] Checking included headers libraries/AP_OpticalFlow/AP_OpticalFlow_PX4Flow.cpp
+[ 197/1506] Checking included headers libraries/AP_OpticalFlow/AP_OpticalFlow_Pixart.cpp
+[ 198/1506] Checking included headers libraries/AP_OpticalFlow/AP_OpticalFlow_SITL.cpp
+[ 199/1506] Checking included headers libraries/AP_OpticalFlow/OpticalFlow.cpp
+[ 200/1506] Checking included headers libraries/AP_OpticalFlow/OpticalFlow_backend.cpp
+[ 201/1506] Checking included headers libraries/AP_Parachute/AP_Parachute.cpp
+[ 202/1506] Checking included headers libraries/AP_Param/AP_Param.cpp
+[ 203/1506] Checking included headers libraries/AP_Proximity/AP_Proximity.cpp
+[ 204/1506] Checking included headers libraries/AP_Proximity/AP_Proximity_Backend.cpp
+[ 205/1506] Checking included headers libraries/AP_Proximity/AP_Proximity_LightWareSF40C.cpp
+[ 206/1506] Checking included headers libraries/AP_Proximity/AP_Proximity_SITL.cpp
+[ 207/1506] Checking included headers libraries/AP_RCMapper/AP_RCMapper.cpp
+[ 208/1506] Checking included headers libraries/AP_RPM/AP_RPM.cpp
+[ 209/1506] Checking included headers libraries/AP_RPM/RPM_Backend.cpp
+[ 210/1506] Checking included headers libraries/AP_RPM/RPM_PX4_PWM.cpp
+[ 211/1506] Checking included headers libraries/AP_RPM/RPM_SITL.cpp
+[ 212/1506] Checking included headers libraries/AP_RSSI/AP_RSSI.cpp
+[ 213/1506] Checking included headers libraries/AP_RangeFinder/AP_RangeFinder_BBB_PRU.cpp
+[ 214/1506] Checking included headers libraries/AP_RangeFinder/AP_RangeFinder_Bebop.cpp
+[ 215/1506] Checking included headers libraries/AP_RangeFinder/AP_RangeFinder_LeddarOne.cpp
+[ 216/1506] Checking included headers libraries/AP_RangeFinder/AP_RangeFinder_LightWareI2C.cpp
+[ 217/1506] Checking included headers libraries/AP_RangeFinder/AP_RangeFinder_LightWareSerial.cpp
+[ 218/1506] Checking included headers libraries/AP_RangeFinder/AP_RangeFinder_MAVLink.cpp
+[ 219/1506] Checking included headers libraries/AP_RangeFinder/AP_RangeFinder_MaxsonarI2CXL.cpp
+[ 220/1506] Checking included headers libraries/AP_RangeFinder/AP_RangeFinder_MaxsonarSerialLV.cpp
+[ 221/1506] Checking included headers libraries/AP_RangeFinder/AP_RangeFinder_PX4.cpp
+[ 222/1506] Checking included headers libraries/AP_RangeFinder/AP_RangeFinder_PX4_PWM.cpp
+[ 223/1506] Checking included headers libraries/AP_RangeFinder/AP_RangeFinder_PulsedLightLRF.cpp
+[ 224/1506] Checking included headers libraries/AP_RangeFinder/AP_RangeFinder_analog.cpp
+[ 225/1506] Checking included headers libraries/AP_RangeFinder/AP_RangeFinder_uLanding.cpp
+[ 226/1506] Checking included headers libraries/AP_RangeFinder/RangeFinder.cpp
+[ 227/1506] Checking included headers libraries/AP_RangeFinder/RangeFinder_Backend.cpp
+[ 228/1506] Checking included headers libraries/AP_Relay/AP_Relay.cpp
+[ 229/1506] Checking included headers libraries/AP_SerialManager/AP_SerialManager.cpp
+[ 230/1506] Checking included headers libraries/AP_ServoRelayEvents/AP_ServoRelayEvents.cpp
+[ 231/1506] Checking included headers libraries/AP_Stats/AP_Stats.cpp
+[ 232/1506] Checking included headers libraries/AP_TECS/AP_TECS.cpp
+[ 233/1506] Checking included headers libraries/AP_Terrain/AP_Terrain.cpp
+[ 234/1506] Checking included headers libraries/AP_Terrain/TerrainGCS.cpp
+[ 235/1506] Checking included headers libraries/AP_Terrain/TerrainIO.cpp
+[ 236/1506] Checking included headers libraries/AP_Terrain/TerrainMission.cpp
+[ 237/1506] Checking included headers libraries/AP_Terrain/TerrainUtil.cpp
+[ 238/1506] Checking included headers libraries/AP_Tuning/AP_Tuning.cpp
+[ 239/1506] Checking included headers libraries/DataFlash/DFMessageWriter.cpp
+[ 240/1506] Checking included headers libraries/DataFlash/DataFlash.cpp
+[ 241/1506] Checking included headers libraries/DataFlash/DataFlash_Backend.cpp
+[ 242/1506] Checking included headers libraries/DataFlash/DataFlash_Block.cpp
+[ 243/1506] Checking included headers libraries/DataFlash/DataFlash_File.cpp
+[ 244/1506] Checking included headers libraries/DataFlash/DataFlash_MAVLink.cpp
+[ 245/1506] Checking included headers libraries/DataFlash/DataFlash_SITL.cpp
+[ 246/1506] Checking included headers libraries/DataFlash/LogFile.cpp
+[ 247/1506] Checking included headers libraries/Filter/DerivativeFilter.cpp
+[ 248/1506] Checking included headers libraries/Filter/LowPassFilter.cpp
+[ 249/1506] Checking included headers libraries/Filter/LowPassFilter2p.cpp
+[ 250/1506] Checking included headers libraries/GCS_MAVLink/GCS_Common.cpp
+[ 251/1506] Checking included headers libraries/GCS_MAVLink/GCS_DeviceOp.cpp
+[ 252/1506] Checking included headers libraries/GCS_MAVLink/GCS_Logs.cpp
+[ 253/1506] Checking included headers libraries/GCS_MAVLink/GCS_MAVLink.cpp
+[ 254/1506] Checking included headers libraries/GCS_MAVLink/GCS_Signing.cpp
+[ 255/1506] Checking included headers libraries/GCS_MAVLink/GCS_serial_control.cpp
+[ 256/1506] Checking included headers libraries/GCS_MAVLink/MAVLink_routing.cpp
+[ 257/1506] Checking included headers libraries/PID/PID.cpp
+[ 258/1506] Checking included headers libraries/RC_Channel/RC_Channel.cpp
+[ 259/1506] Checking included headers libraries/RC_Channel/RC_Channel_aux.cpp
+[ 260/1506] Checking included headers libraries/RC_Channel/SRV_Channel.cpp
+[ 261/1506] Checking included headers libraries/StorageManager/StorageManager.cpp
+[ 262/1506] Checking included headers libraries/AP_HAL/Device.cpp
+[ 263/1506] Checking included headers libraries/AP_HAL/HAL.cpp
+[ 264/1506] Checking included headers libraries/AP_HAL/UARTDriver.cpp
+[ 265/1506] Checking included headers libraries/AP_HAL/Util.cpp
+[ 266/1506] Checking included headers libraries/AP_HAL/utility/Print.cpp
+[ 267/1506] Checking included headers libraries/AP_HAL/utility/RingBuffer.cpp
+[ 268/1506] Checking included headers libraries/AP_HAL/utility/Socket.cpp
+[ 269/1506] Checking included headers libraries/AP_HAL/utility/dsm.cpp
+[ 270/1506] Checking included headers libraries/AP_HAL/utility/ftoa_engine.cpp
+[ 271/1506] Checking included headers libraries/AP_HAL/utility/getopt_cpp.cpp
+[ 272/1506] Checking included headers libraries/AP_HAL/utility/print_vprintf.cpp
+[ 273/1506] Checking included headers libraries/AP_HAL/utility/srxl.cpp
+[ 274/1506] Checking included headers libraries/AP_HAL/utility/st24.cpp
+[ 275/1506] Checking included headers libraries/AP_HAL/utility/sumd.cpp
+[ 276/1506] Checking included headers libraries/AP_HAL/utility/utoa_invert.cpp
+[ 277/1506] Checking included headers libraries/AP_HAL_Empty/AnalogIn.cpp
+[ 278/1506] Checking included headers libraries/AP_HAL_Empty/GPIO.cpp
+[ 279/1506] Checking included headers libraries/AP_HAL_Empty/HAL_Empty_Class.cpp
+[ 280/1506] Checking included headers libraries/AP_HAL_Empty/PrivateMember.cpp
+[ 281/1506] Checking included headers libraries/AP_HAL_Empty/RCInput.cpp
+[ 282/1506] Checking included headers libraries/AP_HAL_Empty/RCOutput.cpp
+[ 283/1506] Checking included headers libraries/AP_HAL_Empty/Scheduler.cpp
+[ 284/1506] Checking included headers libraries/AP_HAL_Empty/Semaphores.cpp
+[ 285/1506] Checking included headers libraries/AP_HAL_Empty/Storage.cpp
+[ 286/1506] Checking included headers libraries/AP_HAL_Empty/UARTDriver.cpp
+[ 287/1506] Checking included headers libraries/AP_HAL_Linux/AnalogIn_ADS1115.cpp
+[ 288/1506] Checking included headers libraries/AP_HAL_Linux/AnalogIn_IIO.cpp
+[ 289/1506] Checking included headers libraries/AP_HAL_Linux/AnalogIn_Navio2.cpp
+[ 290/1506] Checking included headers libraries/AP_HAL_Linux/AnalogIn_Raspilot.cpp
+[ 291/1506] Checking included headers libraries/AP_HAL_Linux/CameraSensor.cpp
+[ 292/1506] Checking included headers libraries/AP_HAL_Linux/CameraSensor_Mt9v117.cpp
+[ 293/1506] Checking included headers libraries/AP_HAL_Linux/CameraSensor_Mt9v117_Patches.cpp
+[ 294/1506] Checking included headers libraries/AP_HAL_Linux/ConsoleDevice.cpp
+[ 295/1506] Checking included headers libraries/AP_HAL_Linux/Flow_PX4.cpp
+[ 296/1506] Checking included headers libraries/AP_HAL_Linux/GPIO.cpp
+[ 297/1506] Checking included headers libraries/AP_HAL_Linux/GPIO_Aero.cpp
+[ 298/1506] Checking included headers libraries/AP_HAL_Linux/GPIO_BBB.cpp
+[ 299/1506] Checking included headers libraries/AP_HAL_Linux/GPIO_Bebop.cpp
+[ 300/1506] Checking included headers libraries/AP_HAL_Linux/GPIO_Disco.cpp
+[ 301/1506] Checking included headers libraries/AP_HAL_Linux/GPIO_Minnow.cpp
+[ 302/1506] Checking included headers libraries/AP_HAL_Linux/GPIO_RPI.cpp
+[ 303/1506] Checking included headers libraries/AP_HAL_Linux/GPIO_Sysfs.cpp
+[ 304/1506] Checking included headers libraries/AP_HAL_Linux/HAL_Linux_Class.cpp
+[ 305/1506] Checking included headers libraries/AP_HAL_Linux/Heat_Pwm.cpp
+[ 306/1506] Checking included headers libraries/AP_HAL_Linux/I2CDevice.cpp
+[ 307/1506] Checking included headers libraries/AP_HAL_Linux/OpticalFlow_Onboard.cpp
+[ 308/1506] Checking included headers libraries/AP_HAL_Linux/PWM_Sysfs.cpp
+[ 309/1506] Checking included headers libraries/AP_HAL_Linux/Perf.cpp
+[ 310/1506] Checking included headers libraries/AP_HAL_Linux/Perf_Lttng.cpp
+[ 311/1506] Checking included headers libraries/AP_HAL_Linux/Poller.cpp
+[ 312/1506] Checking included headers libraries/AP_HAL_Linux/PollerThread.cpp
+[ 313/1506] Checking included headers libraries/AP_HAL_Linux/RCInput.cpp
+[ 314/1506] Checking included headers libraries/AP_HAL_Linux/RCInput_115200.cpp
+[ 315/1506] Checking included headers libraries/AP_HAL_Linux/RCInput_AioPRU.cpp
+[ 316/1506] Checking included headers libraries/AP_HAL_Linux/RCInput_DSM.cpp
+[ 317/1506] Checking included headers libraries/AP_HAL_Linux/RCInput_Multi.cpp
+[ 318/1506] Checking included headers libraries/AP_HAL_Linux/RCInput_Navio2.cpp
+[ 319/1506] Checking included headers libraries/AP_HAL_Linux/RCInput_PRU.cpp
+[ 320/1506] Checking included headers libraries/AP_HAL_Linux/RCInput_RPI.cpp
+[ 321/1506] Checking included headers libraries/AP_HAL_Linux/RCInput_Raspilot.cpp
+[ 322/1506] Checking included headers libraries/AP_HAL_Linux/RCInput_SBUS.cpp
+[ 323/1506] Checking included headers libraries/AP_HAL_Linux/RCInput_UART.cpp
+[ 324/1506] Checking included headers libraries/AP_HAL_Linux/RCInput_UDP.cpp
+[ 325/1506] Checking included headers libraries/AP_HAL_Linux/RCInput_ZYNQ.cpp
+[ 326/1506] Checking included headers libraries/AP_HAL_Linux/RCOutput_AeroIO.cpp
+[ 327/1506] Checking included headers libraries/AP_HAL_Linux/RCOutput_AioPRU.cpp
+[ 328/1506] Checking included headers libraries/AP_HAL_Linux/RCOutput_Bebop.cpp
+[ 329/1506] Checking included headers libraries/AP_HAL_Linux/RCOutput_Disco.cpp
+[ 330/1506] Checking included headers libraries/AP_HAL_Linux/RCOutput_PCA9685.cpp
+[ 331/1506] Checking included headers libraries/AP_HAL_Linux/RCOutput_PRU.cpp
+[ 332/1506] Checking included headers libraries/AP_HAL_Linux/RCOutput_Raspilot.cpp
+[ 333/1506] Checking included headers libraries/AP_HAL_Linux/RCOutput_Sysfs.cpp
+[ 334/1506] Checking included headers libraries/AP_HAL_Linux/RCOutput_ZYNQ.cpp
+[ 335/1506] Checking included headers libraries/AP_HAL_Linux/RCOutput_qflight.cpp
+[ 336/1506] Checking included headers libraries/AP_HAL_Linux/RPIOUARTDriver.cpp
+[ 337/1506] Checking included headers libraries/AP_HAL_Linux/SPIDevice.cpp
+[ 338/1506] Checking included headers libraries/AP_HAL_Linux/SPIUARTDriver.cpp
+[ 339/1506] Checking included headers libraries/AP_HAL_Linux/Semaphores.cpp
+[ 340/1506] Checking included headers libraries/AP_HAL_Linux/TCPServerDevice.cpp
+[ 341/1506] Checking included headers libraries/AP_HAL_Linux/Thread.cpp
+[ 342/1506] Checking included headers libraries/AP_HAL_Linux/ToneAlarm.cpp
+[ 343/1506] Checking included headers libraries/AP_HAL_Linux/ToneAlarm_Disco.cpp
+[ 344/1506] Checking included headers libraries/AP_HAL_Linux/ToneAlarm_Raspilot.cpp
+[ 345/1506] Checking included headers libraries/AP_HAL_Linux/UARTDevice.cpp
+[ 346/1506] Checking included headers libraries/AP_HAL_Linux/UARTDriver.cpp
+[ 347/1506] Checking included headers libraries/AP_HAL_Linux/UARTQFlight.cpp
+[ 348/1506] Checking included headers libraries/AP_HAL_Linux/UDPDevice.cpp
+[ 349/1506] Checking included headers libraries/AP_HAL_Linux/Util.cpp
+[ 350/1506] Checking included headers libraries/AP_HAL_Linux/Util_RPI.cpp
+[ 351/1506] Checking included headers libraries/AP_HAL_Linux/VideoIn.cpp
+[ 352/1506] Checking included headers libraries/AP_HAL_Linux/sbus.cpp
+[ 353/1506] Checking included headers libraries/AP_HAL_Linux/system.cpp
+[ 354/1506] Checking included headers libraries/AP_AccelCal/AP_AccelCal.cpp
+[ 355/1506] Checking included headers libraries/AP_BattMonitor/AP_BattMonitor.cpp
+[ 356/1506] Checking included headers libraries/AP_Compass/AP_Compass.cpp
+[ 357/1506] Checking included headers libraries/AP_InertialSensor/AP_InertialSensor.cpp
+[ 358/1506] Checking included headers libraries/AP_Mission/AP_Mission.cpp
+[ 359/1506] Checking included headers libraries/AP_NavEKF/AP_NavEKF.cpp
+[ 360/1506] Checking included headers libraries/AP_NavEKF/AP_NavEKF_core.cpp
+[ 361/1506] Checking included headers libraries/AP_NavEKF2/AP_NavEKF2.cpp
+[ 362/1506] Checking included headers libraries/AP_Rally/AP_Rally.cpp
+[ 363/1506] Checking included headers libraries/AP_Scheduler/AP_Scheduler.cpp
+[ 364/1506] Checking included headers libraries/AP_HAL_Linux/Scheduler.cpp
+[ 365/1506] Checking included headers libraries/AP_HAL_Linux/Storage.cpp
+[ 366/1506] Checking included headers libraries/AP_AccelCal/AP_AccelCal.cpp
+[ 367/1506] Checking included headers libraries/AP_BattMonitor/AP_BattMonitor.cpp
+[ 368/1506] Checking included headers libraries/AP_Compass/AP_Compass.cpp
+[ 369/1506] Checking included headers libraries/AP_InertialSensor/AP_InertialSensor.cpp
+[ 370/1506] Checking included headers libraries/AP_Mission/AP_Mission.cpp
+[ 371/1506] Checking included headers libraries/AP_NavEKF/AP_NavEKF.cpp
+[ 372/1506] Checking included headers libraries/AP_NavEKF/AP_NavEKF_core.cpp
+[ 373/1506] Checking included headers libraries/AP_NavEKF2/AP_NavEKF2.cpp
+[ 374/1506] Checking included headers libraries/AP_Rally/AP_Rally.cpp
+[ 375/1506] Checking included headers libraries/AP_Scheduler/AP_Scheduler.cpp
+[ 376/1506] Checking included headers libraries/AP_HAL_Linux/Scheduler.cpp
+[ 377/1506] Checking included headers libraries/AP_HAL_Linux/Storage.cpp
+[ 378/1506] Checking included headers libraries/AP_AccelCal/AP_AccelCal.cpp
+[ 379/1506] Checking included headers libraries/AP_BattMonitor/AP_BattMonitor.cpp
+[ 380/1506] Checking included headers libraries/AP_Compass/AP_Compass.cpp
+[ 381/1506] Checking included headers libraries/AP_InertialSensor/AP_InertialSensor.cpp
+[ 382/1506] Checking included headers libraries/AP_Mission/AP_Mission.cpp
+[ 383/1506] Checking included headers libraries/AP_NavEKF/AP_NavEKF.cpp
+[ 384/1506] Checking included headers libraries/AP_NavEKF/AP_NavEKF_core.cpp
+[ 385/1506] Checking included headers libraries/AP_NavEKF2/AP_NavEKF2.cpp
+[ 386/1506] Checking included headers libraries/AP_Rally/AP_Rally.cpp
+[ 387/1506] Checking included headers libraries/AP_Scheduler/AP_Scheduler.cpp
+[ 388/1506] Checking included headers libraries/AP_ADSB/AP_ADSB.cpp
+[ 389/1506] Checking included headers libraries/AP_Avoidance/AP_Avoidance.cpp
+[ 390/1506] Checking included headers libraries/AP_HAL_Linux/Scheduler.cpp
+[ 391/1506] Checking included headers libraries/AP_HAL_Linux/Storage.cpp
+[ 392/1506] Checking included headers libraries/AP_AccelCal/AP_AccelCal.cpp
+[ 393/1506] Checking included headers libraries/AP_BattMonitor/AP_BattMonitor.cpp
+[ 394/1506] Checking included headers libraries/AP_Compass/AP_Compass.cpp
+[ 395/1506] Checking included headers libraries/AP_InertialSensor/AP_InertialSensor.cpp
+[ 396/1506] Checking included headers libraries/AP_Mission/AP_Mission.cpp
+[ 397/1506] Checking included headers libraries/AP_NavEKF/AP_NavEKF.cpp
+[ 398/1506] Checking included headers libraries/AP_NavEKF/AP_NavEKF_core.cpp
+[ 399/1506] Checking included headers libraries/AP_NavEKF2/AP_NavEKF2.cpp
+[ 400/1506] Checking included headers libraries/AP_Rally/AP_Rally.cpp
+[ 401/1506] Checking included headers libraries/AP_Scheduler/AP_Scheduler.cpp
+[ 402/1506] Checking included headers libraries/AP_ADSB/AP_ADSB.cpp
+[ 403/1506] Checking included headers libraries/AP_Avoidance/AP_Avoidance.cpp
+[ 404/1506] Checking included headers libraries/AP_HAL_Linux/Scheduler.cpp
+[ 405/1506] Checking included headers libraries/AP_HAL_Linux/Storage.cpp
+[ 406/1506] Compiling ArduPlane/Attitude.cpp
+[ 407/1506] Compiling ArduPlane/ArduPlane.cpp
+[ 408/1506] Compiling ArduPlane/takeoff.cpp
+[ 409/1506] Compiling ArduPlane/system.cpp
+[ 410/1506] Compiling ArduPlane/setup.cpp
+[ 411/1506] Compiling ArduPlane/servos.cpp
+[ 412/1506] Compiling ArduPlane/radio.cpp
+[ 413/1506] Compiling ArduPlane/navigation.cpp
+[ 414/1506] Compiling ArduPlane/motor_test.cpp
+[ 415/1506] Compiling ArduPlane/events.cpp
+[ 416/1506] Compiling ArduPlane/control_modes.cpp
+[ 417/1506] Compiling ArduPlane/commands_logic.cpp
+[ 418/1506] Compiling ArduPlane/capabilities.cpp
+[ 419/1506] Compiling ArduPlane/avoidance_adsb.cpp
+[ 420/1506] Compiling ArduPlane/arming_checks.cpp
+[ 421/1506] Compiling ArduPlane/afs_plane.cpp
+[ 422/1506] Compiling ArduPlane/Plane.cpp
+[ 423/1506] Compiling ArduPlane/Parameters.cpp
+[ 424/1506] Compiling ArduPlane/GCS_Mavlink.cpp
+[ 425/1506] Compiling ArduPlane/Attitude.cpp
+[ 426/1506] Compiling ArduPlane/ArduPlane.cpp
+[ 427/1506] Compiling libraries/AP_ADSB/AP_ADSB.cpp
+[ 428/1506] Compiling libraries/AP_Scheduler/AP_Scheduler.cpp
+[ 429/1506] Compiling libraries/AP_Rally/AP_Rally.cpp
+[ 430/1506] Compiling libraries/AP_NavEKF/AP_NavEKF.cpp
+[ 431/1506] Compiling libraries/AP_Compass/AP_Compass.cpp
+[ 432/1506] Compiling ArduCopter/tuning.cpp
+[ 433/1506] Compiling ArduCopter/terrain.cpp
+[ 434/1506] Compiling ArduCopter/takeoff.cpp
+[ 435/1506] Compiling ArduCopter/system.cpp
+[ 436/1506] Compiling ArduCopter/switches.cpp
+[ 437/1506] Compiling ArduCopter/sensors.cpp
+[ 438/1506] Compiling ArduCopter/radio.cpp
+[ 439/1506] Compiling ArduCopter/precision_landing.cpp
+[ 440/1506] Compiling ArduCopter/perf_info.cpp
+[ 441/1506] Compiling ArduCopter/navigation.cpp
+[ 442/1506] Compiling ArduCopter/motors.cpp
+[ 443/1506] Compiling ArduCopter/motor_test.cpp
+[ 444/1506] Compiling ArduCopter/leds.cpp
+[ 445/1506] Compiling ArduCopter/inertia.cpp
+[ 446/1506] Compiling ArduCopter/heli_control_acro.cpp
+[ 447/1506] Compiling ArduCopter/fence.cpp
+[ 448/1506] Compiling ArduCopter/events.cpp
+[ 449/1506] Compiling ArduCopter/control_stabilize.cpp
+[ 450/1506] Compiling ArduCopter/control_poshold.cpp
+[ 451/1506] Compiling ArduCopter/control_loiter.cpp
+[ 452/1506] Compiling ArduCopter/control_land.cpp
+[ 453/1506] Compiling ArduCopter/control_guided_nogps.cpp
+[ 454/1506] Compiling ArduCopter/control_flip.cpp
+[ 455/1506] Compiling ArduCopter/control_drift.cpp
+[ 456/1506] Compiling ArduCopter/control_autotune.cpp
+[ 457/1506] Compiling ArduCopter/control_auto.cpp
+[ 458/1506] Compiling ArduCopter/control_althold.cpp
+[ 459/1506] Compiling ArduCopter/compat.cpp
+[ 460/1506] Compiling ArduCopter/commands_logic.cpp
+[ 461/1506] Compiling ArduCopter/commands.cpp
+[ 462/1506] Compiling ArduCopter/avoidance_adsb.cpp
+[ 463/1506] Compiling ArduCopter/UserCode.cpp
+[ 464/1506] Compiling ArduCopter/Parameters.cpp
+[ 465/1506] Compiling ArduCopter/Log.cpp
+[ 466/1506] Compiling ArduCopter/GCS_Mavlink.cpp
+[ 467/1506] Compiling ArduCopter/Attitude.cpp
+[ 468/1506] Compiling ArduCopter/ArduCopter.cpp
+[ 469/1506] Compiling ArduCopter/AP_State.cpp
+[ 470/1506] Compiling ArduCopter/AP_Rally.cpp
+[ 471/1506] Compiling ArduCopter/test.cpp
+[ 472/1506] Compiling ArduCopter/switches.cpp
+[ 473/1506] Compiling ArduCopter/sensors.cpp
+[ 474/1506] Compiling ArduCopter/position_vector.cpp
+[ 475/1506] Compiling ArduCopter/perf_info.cpp
+[ 476/1506] Compiling ArduCopter/landing_gear.cpp
+[ 477/1506] Compiling ArduCopter/heli.cpp
+[ 478/1506] Compiling ArduCopter/flight_mode.cpp
+[ 479/1506] Compiling ArduCopter/fence.cpp
+[ 480/1506] Compiling ArduCopter/failsafe.cpp
+[ 481/1506] Compiling ArduCopter/events.cpp
+[ 482/1506] Compiling ArduCopter/control_throw.cpp
+[ 483/1506] Compiling ArduCopter/control_stabilize.cpp
+[ 484/1506] Compiling ArduCopter/control_sport.cpp
+[ 485/1506] Compiling ArduCopter/control_rtl.cpp
+[ 486/1506] Compiling ArduCopter/control_poshold.cpp
+[ 487/1506] Compiling ArduCopter/control_land.cpp
+[ 488/1506] Compiling ArduCopter/control_guided_nogps.cpp
+[ 489/1506] Compiling ArduCopter/control_drift.cpp
+[ 490/1506] Compiling ArduCopter/control_brake.cpp
+[ 491/1506] Compiling ArduCopter/control_althold.cpp
+[ 492/1506] Compiling ArduCopter/control_acro.cpp
+[ 493/1506] Compiling ArduCopter/compat.cpp
+[ 494/1506] Compiling ArduCopter/compassmot.cpp
+[ 495/1506] Compiling ArduCopter/afs_copter.cpp
+[ 496/1506] Compiling ArduCopter/ArduCopter.cpp
+[ 497/1506] Compiling ArduCopter/AP_Rally.cpp
+[ 498/1506] Compiling ArduCopter/test.cpp
+[ 499/1506] Compiling ArduCopter/terrain.cpp
+[ 500/1506] Compiling ArduCopter/takeoff.cpp
+[ 501/1506] Compiling ArduCopter/switches.cpp
+[ 502/1506] Compiling ArduCopter/radio.cpp
+[ 503/1506] Compiling ArduCopter/position_vector.cpp
+[ 504/1506] Compiling ArduCopter/navigation.cpp
+[ 505/1506] Compiling ArduCopter/landing_gear.cpp
+[ 506/1506] Compiling ArduCopter/heli_control_stabilize.cpp
+[ 507/1506] Compiling ArduCopter/heli_control_acro.cpp
+[ 508/1506] Compiling ArduCopter/flight_mode.cpp
+[ 509/1506] Compiling ArduCopter/fence.cpp
+[ 510/1506] Compiling ArduCopter/events.cpp
+[ 511/1506] Compiling ArduCopter/esc_calibration.cpp
+[ 512/1506] Compiling ArduCopter/ekf_check.cpp
+[ 513/1506] Compiling ArduCopter/control_throw.cpp
+[ 514/1506] Compiling ArduCopter/control_stabilize.cpp
+[ 515/1506] Compiling ArduCopter/control_rtl.cpp
+[ 516/1506] Compiling ArduCopter/control_loiter.cpp
+[ 517/1506] Compiling ArduCopter/control_flip.cpp
+[ 518/1506] Compiling ArduCopter/control_brake.cpp
+[ 519/1506] Compiling ArduCopter/control_autotune.cpp
+[ 520/1506] Compiling ArduCopter/control_althold.cpp
+[ 521/1506] Compiling ArduCopter/control_acro.cpp
+[ 522/1506] Compiling ArduCopter/compat.cpp
+[ 523/1506] Compiling ArduCopter/commands.cpp
+[ 524/1506] Compiling ArduCopter/arming_checks.cpp
+[ 525/1506] Compiling ArduCopter/afs_copter.cpp
+[ 526/1506] Compiling ArduCopter/GCS_Mavlink.cpp
+[ 527/1506] Compiling ArduCopter/Attitude.cpp
+[ 528/1506] Compiling ArduCopter/ArduCopter.cpp
+[ 529/1506] Compiling ArduCopter/AP_State.cpp
+[ 530/1506] Compiling ArduCopter/AP_Rally.cpp
+[ 531/1506] Compiling ArduCopter/tuning.cpp
+[ 532/1506] Compiling ArduCopter/system.cpp
+[ 533/1506] Compiling ArduCopter/setup.cpp
+[ 534/1506] Compiling ArduCopter/position_vector.cpp
+[ 535/1506] Compiling ArduCopter/perf_info.cpp
+[ 536/1506] Compiling ArduCopter/navigation.cpp
+[ 537/1506] Compiling ArduCopter/motor_test.cpp
+[ 538/1506] Compiling ArduCopter/landing_gear.cpp
+[ 539/1506] Compiling ArduCopter/land_detector.cpp
+[ 540/1506] Compiling ArduCopter/heli_control_stabilize.cpp
+[ 541/1506] Compiling ArduCopter/heli_control_acro.cpp
+[ 542/1506] Compiling ArduCopter/heli.cpp
+[ 543/1506] Compiling ArduCopter/flight_mode.cpp
+[ 544/1506] Compiling ArduCopter/fence.cpp
+[ 545/1506] Compiling ArduCopter/esc_calibration.cpp
+[ 546/1506] Compiling ArduCopter/control_stabilize.cpp
+[ 547/1506] Compiling ArduCopter/control_sport.cpp
+[ 548/1506] Compiling ArduCopter/control_rtl.cpp
+[ 549/1506] Compiling ArduCopter/control_loiter.cpp
+[ 550/1506] Compiling ArduCopter/control_land.cpp
+[ 551/1506] Compiling ArduCopter/control_guided.cpp
+[ 552/1506] Compiling ArduCopter/control_flip.cpp
+[ 553/1506] Compiling ArduCopter/control_brake.cpp
+[ 554/1506] Compiling ArduCopter/control_autotune.cpp
+[ 555/1506] Compiling ArduCopter/control_auto.cpp
+[ 556/1506] Compiling ArduCopter/commands.cpp
+[ 557/1506] Compiling ArduCopter/avoidance_adsb.cpp
+[ 558/1506] Compiling ArduCopter/arming_checks.cpp
+[ 559/1506] Compiling ArduCopter/Parameters.cpp
+[ 560/1506] Compiling ArduCopter/GCS_Mavlink.cpp
+[ 561/1506] Compiling ArduCopter/ArduCopter.cpp
+[ 562/1506] Compiling ArduCopter/takeoff.cpp
+[ 563/1506] Compiling ArduCopter/radio.cpp
+[ 564/1506] Compiling ArduCopter/precision_landing.cpp
+[ 565/1506] Compiling ArduCopter/perf_info.cpp
+[ 566/1506] Compiling ArduCopter/navigation.cpp
+[ 567/1506] Compiling ArduCopter/motors.cpp
+[ 568/1506] Compiling ArduCopter/motor_test.cpp
+[ 569/1506] Compiling ArduCopter/leds.cpp
+[ 570/1506] Compiling ArduCopter/land_detector.cpp
+[ 571/1506] Compiling ArduCopter/inertia.cpp
+[ 572/1506] Compiling ArduCopter/heli.cpp
+[ 573/1506] Compiling ArduCopter/esc_calibration.cpp
+[ 574/1506] Compiling ArduCopter/crash_check.cpp
+[ 575/1506] Compiling ArduCopter/control_throw.cpp
+[ 576/1506] Compiling ArduCopter/control_sport.cpp
+[ 577/1506] Compiling ArduCopter/control_loiter.cpp
+[ 578/1506] Compiling ArduCopter/control_land.cpp
+[ 579/1506] Compiling ArduCopter/control_flip.cpp
+[ 580/1506] Compiling ArduCopter/control_drift.cpp
+[ 581/1506] Compiling ArduCopter/control_circle.cpp
+[ 582/1506] Compiling ArduCopter/control_avoid_adsb.cpp
+[ 583/1506] Compiling ArduCopter/control_autotune.cpp
+[ 584/1506] Compiling ArduCopter/control_auto.cpp
+[ 585/1506] Compiling ArduCopter/control_althold.cpp
+[ 586/1506] Compiling ArduCopter/commands.cpp
+[ 587/1506] Compiling ArduCopter/capabilities.cpp
+[ 588/1506] Compiling ArduCopter/avoidance_adsb.cpp
+[ 589/1506] Compiling ArduCopter/Parameters.cpp
+[ 590/1506] Compiling ArduCopter/Log.cpp
+[ 591/1506] Compiling ArduCopter/GCS_Mavlink.cpp
+[ 592/1506] Compiling ArduCopter/Copter.cpp
+[ 593/1506] Compiling ArduCopter/Attitude.cpp
+[ 594/1506] Compiling ArduCopter/AP_State.cpp
+[ 595/1506] Compiling ArduCopter/AP_Rally.cpp
+[ 596/1506] Compiling ArduCopter/test.cpp
+[ 597/1506] Compiling ArduCopter/terrain.cpp
+[ 598/1506] Compiling ArduCopter/system.cpp
+[ 599/1506] Compiling ArduCopter/setup.cpp
+[ 600/1506] Compiling ArduCopter/sensors.cpp
+[ 601/1506] Compiling ArduCopter/radio.cpp
+[ 602/1506] Compiling ArduCopter/position_vector.cpp
+[ 603/1506] Compiling ArduCopter/motors.cpp
+[ 604/1506] Compiling ArduCopter/leds.cpp
+[ 605/1506] Compiling ArduCopter/landing_gear.cpp
+[ 606/1506] Compiling ArduCopter/inertia.cpp
+[ 607/1506] Compiling ArduCopter/heli_control_stabilize.cpp
+[ 608/1506] Compiling ArduCopter/heli.cpp
+[ 609/1506] Compiling ArduCopter/failsafe.cpp
+[ 610/1506] Compiling ArduCopter/events.cpp
+[ 611/1506] Compiling ArduCopter/control_stabilize.cpp
+[ 612/1506] Compiling ArduCopter/control_sport.cpp
+[ 613/1506] Compiling ArduCopter/control_poshold.cpp
+[ 614/1506] Compiling ArduCopter/control_loiter.cpp
+[ 615/1506] Compiling ArduCopter/control_land.cpp
+[ 616/1506] Compiling ArduCopter/control_guided.cpp
+[ 617/1506] Compiling ArduCopter/control_drift.cpp
+[ 618/1506] Compiling ArduCopter/control_brake.cpp
+[ 619/1506] Compiling ArduCopter/control_avoid_adsb.cpp
+[ 620/1506] Compiling ArduCopter/control_auto.cpp
+[ 621/1506] Compiling ArduCopter/control_althold.cpp
+[ 622/1506] Compiling ArduCopter/control_acro.cpp
+[ 623/1506] Compiling ArduCopter/baro_ground_effect.cpp
+[ 624/1506] Compiling ArduCopter/avoidance_adsb.cpp
+[ 625/1506] Compiling ArduCopter/afs_copter.cpp
+[ 626/1506] Compiling ArduCopter/Parameters.cpp
+[ 627/1506] Compiling ArduCopter/Log.cpp
+[ 628/1506] Compiling ArduCopter/GCS_Mavlink.cpp
+[ 629/1506] Compiling ArduCopter/Copter.cpp
+[ 630/1506] Compiling ArduCopter/Attitude.cpp
+[ 631/1506] Compiling ArduCopter/tuning.cpp
+[ 632/1506] Compiling ArduCopter/terrain.cpp
+[ 633/1506] Compiling ArduCopter/takeoff.cpp
+[ 634/1506] Compiling ArduCopter/setup.cpp
+[ 635/1506] Compiling ArduCopter/sensors.cpp
+[ 636/1506] Compiling ArduCopter/position_vector.cpp
+[ 637/1506] Compiling ArduCopter/navigation.cpp
+[ 638/1506] Compiling ArduCopter/motor_test.cpp
+[ 639/1506] Compiling ArduCopter/landing_gear.cpp
+[ 640/1506] Compiling ArduCopter/heli_control_stabilize.cpp
+[ 641/1506] Compiling ArduCopter/heli.cpp
+[ 642/1506] Compiling ArduCopter/fence.cpp
+[ 643/1506] Compiling ArduCopter/failsafe.cpp
+[ 644/1506] Compiling ArduCopter/events.cpp
+[ 645/1506] Compiling ArduCopter/control_throw.cpp
+[ 646/1506] Compiling ArduCopter/control_sport.cpp
+[ 647/1506] Compiling ArduCopter/control_poshold.cpp
+[ 648/1506] Compiling ArduCopter/control_loiter.cpp
+[ 649/1506] Compiling ArduCopter/control_land.cpp
+[ 650/1506] Compiling ArduCopter/control_guided_nogps.cpp
+[ 651/1506] Compiling ArduCopter/control_guided.cpp
+[ 652/1506] Compiling ArduCopter/control_flip.cpp
+[ 653/1506] Compiling ArduCopter/control_circle.cpp
+[ 654/1506] Compiling ArduCopter/control_avoid_adsb.cpp
+[ 655/1506] Compiling ArduCopter/control_althold.cpp
+[ 656/1506] Compiling ArduCopter/control_acro.cpp
+[ 657/1506] Compiling ArduCopter/commands_logic.cpp
+[ 658/1506] Compiling ArduCopter/commands.cpp
+[ 659/1506] Compiling ArduCopter/baro_ground_effect.cpp
+[ 660/1506] Compiling ArduCopter/avoidance_adsb.cpp
+[ 661/1506] Compiling ArduCopter/arming_checks.cpp
+[ 662/1506] Compiling ArduCopter/UserCode.cpp
+[ 663/1506] Compiling ArduCopter/Parameters.cpp
+[ 664/1506] Compiling ArduCopter/Log.cpp
+[ 665/1506] Compiling ArduCopter/Attitude.cpp
+[ 666/1506] Compiling ArduCopter/AP_Rally.cpp
+[ 667/1506] Compiling ArduCopter/test.cpp
+[ 668/1506] Compiling ArduCopter/terrain.cpp
+[ 669/1506] Compiling ArduCopter/takeoff.cpp
+[ 670/1506] Compiling ArduCopter/system.cpp
+[ 671/1506] Compiling ArduCopter/setup.cpp
+[ 672/1506] Compiling ArduCopter/radio.cpp
+[ 673/1506] Compiling ArduCopter/precision_landing.cpp
+[ 674/1506] Compiling ArduCopter/position_vector.cpp
+[ 675/1506] Compiling ArduCopter/motors.cpp
+[ 676/1506] Compiling ArduCopter/inertia.cpp
+[ 677/1506] Compiling ArduCopter/heli.cpp
+[ 678/1506] Compiling ArduCopter/flight_mode.cpp
+[ 679/1506] Compiling ArduCopter/fence.cpp
+[ 680/1506] Compiling ArduCopter/events.cpp
+[ 681/1506] Compiling ArduCopter/esc_calibration.cpp
+[ 682/1506] Compiling ArduCopter/ekf_check.cpp
+[ 683/1506] Compiling ArduCopter/crash_check.cpp
+[ 684/1506] Compiling ArduCopter/control_stabilize.cpp
+[ 685/1506] Compiling ArduCopter/control_land.cpp
+[ 686/1506] Compiling ArduCopter/control_guided_nogps.cpp
+[ 687/1506] Compiling ArduCopter/control_guided.cpp
+[ 688/1506] Compiling ArduCopter/control_drift.cpp
+[ 689/1506] Compiling ArduCopter/control_brake.cpp
+[ 690/1506] Compiling ArduCopter/control_avoid_adsb.cpp
+[ 691/1506] Compiling ArduCopter/control_autotune.cpp
+[ 692/1506] Compiling ArduCopter/control_althold.cpp
+[ 693/1506] Compiling ArduCopter/compat.cpp
+[ 694/1506] Compiling ArduCopter/compassmot.cpp
+[ 695/1506] Compiling ArduCopter/capabilities.cpp
+[ 696/1506] Compiling ArduCopter/avoidance_adsb.cpp
+[ 697/1506] Compiling ArduCopter/afs_copter.cpp
+[ 698/1506] Compiling ArduCopter/Log.cpp
+[ 699/1506] Compiling ArduCopter/Copter.cpp
+[ 700/1506] Compiling ArduCopter/Attitude.cpp
+[ 701/1506] Compiling ArduCopter/takeoff.cpp
+[ 702/1506] Compiling ArduCopter/radio.cpp
+[ 703/1506] Compiling ArduCopter/precision_landing.cpp
+[ 704/1506] Compiling ArduCopter/perf_info.cpp
+[ 705/1506] Compiling ArduCopter/navigation.cpp
+[ 706/1506] Compiling ArduCopter/leds.cpp
+[ 707/1506] Compiling ArduCopter/landing_gear.cpp
+[ 708/1506] Compiling ArduCopter/land_detector.cpp
+[ 709/1506] Compiling ArduCopter/heli_control_stabilize.cpp
+[ 710/1506] Compiling ArduCopter/heli.cpp
+[ 711/1506] Compiling ArduCopter/flight_mode.cpp
+[ 712/1506] Compiling ArduCopter/fence.cpp
+[ 713/1506] Compiling ArduCopter/events.cpp
+[ 714/1506] Compiling ArduCopter/esc_calibration.cpp
+[ 715/1506] Compiling ArduCopter/ekf_check.cpp
+[ 716/1506] Compiling ArduCopter/crash_check.cpp
+[ 717/1506] Compiling ArduCopter/control_throw.cpp
+[ 718/1506] Compiling ArduCopter/control_stabilize.cpp
+[ 719/1506] Compiling ArduCopter/control_sport.cpp
+[ 720/1506] Compiling ArduCopter/control_rtl.cpp
+[ 721/1506] Compiling ArduCopter/control_guided.cpp
+[ 722/1506] Compiling ArduCopter/control_drift.cpp
+[ 723/1506] Compiling ArduCopter/control_brake.cpp
+[ 724/1506] Compiling ArduCopter/control_avoid_adsb.cpp
+[ 725/1506] Compiling ArduCopter/control_autotune.cpp
+[ 726/1506] Compiling ArduCopter/control_auto.cpp
+[ 727/1506] Compiling ArduCopter/control_althold.cpp
+[ 728/1506] Compiling ArduCopter/compat.cpp
+[ 729/1506] Compiling ArduCopter/baro_ground_effect.cpp
+[ 730/1506] Compiling ArduCopter/avoidance_adsb.cpp
+[ 731/1506] Compiling ArduCopter/arming_checks.cpp
+[ 732/1506] Compiling ArduCopter/UserCode.cpp
+[ 733/1506] Compiling ArduCopter/Attitude.cpp
+[ 734/1506] Compiling ArduCopter/ArduCopter.cpp
+[ 735/1506] Compiling ArduCopter/AP_Rally.cpp
+[ 736/1506] Compiling libraries/AP_HAL_Linux/Storage.cpp
+[ 738/1506] Compiling libraries/AP_HAL_Linux/Scheduler.cpp
+[ 738/1506] Compiling libraries/AP_ADSB/AP_ADSB.cpp
+[ 739/1506] Compiling libraries/AP_NavEKF/AP_NavEKF_core.cpp
+[ 740/1506] Compiling libraries/AP_Mission/AP_Mission.cpp
+[ 741/1506] Compiling AntennaTracker/tracking.cpp
+[ 742/1506] Compiling AntennaTracker/system.cpp
+[ 743/1506] Compiling AntennaTracker/radio.cpp
+[ 744/1506] Compiling AntennaTracker/control_manual.cpp
+[ 745/1506] Compiling AntennaTracker/capabilities.cpp
+[ 746/1506] Compiling AntennaTracker/Log.cpp
+[ 747/1506] Compiling AntennaTracker/GCS_Mavlink.cpp
+[ 748/1506] Compiling libraries/AP_Scheduler/AP_Scheduler.cpp
+[ 749/1506] Compiling libraries/AP_NavEKF/AP_NavEKF.cpp
+[ 750/1506] Compiling libraries/AP_Mission/AP_Mission.cpp
+[ 751/1506] Compiling libraries/AP_Compass/AP_Compass.cpp
+[ 752/1506] Compiling libraries/AP_BattMonitor/AP_BattMonitor.cpp
+[ 753/1506] Compiling APMrover2/system.cpp
+[ 754/1506] Compiling APMrover2/radio.cpp
+[ 755/1506] Compiling APMrover2/events.cpp
+[ 756/1506] Compiling APMrover2/compat.cpp
+[ 757/1506] Compiling APMrover2/commands.cpp
+[ 758/1506] Compiling APMrover2/Steering.cpp
+[ 759/1506] Compiling APMrover2/Parameters.cpp
+[ 760/1506] Compiling APMrover2/Log.cpp
+[ 761/1506] Compiling APMrover2/GCS_Mavlink.cpp
+[ 762/1506] Compiling APMrover2/APMrover2.cpp
+[ 763/1506] Compiling libraries/AP_Scheduler/AP_Scheduler.cpp
+[ 764/1506] Compiling libraries/AP_NavEKF2/AP_NavEKF2.cpp
+[ 765/1506] Compiling libraries/AP_Compass/AP_Compass.cpp
+[ 766/1506] Compiling libraries/AP_BattMonitor/AP_BattMonitor.cpp
+[ 767/1506] Compiling libraries/AP_HAL_Linux/sbus.cpp
+[ 768/1506] Compiling libraries/AP_HAL_Linux/VideoIn.cpp
+[ 769/1506] Compiling libraries/AP_HAL_Linux/Util.cpp
+[ 770/1506] Compiling libraries/AP_HAL_Linux/UDPDevice.cpp
+[ 771/1506] Compiling libraries/AP_HAL_Linux/UARTDriver.cpp
+[ 772/1506] Compiling libraries/AP_HAL_Linux/UARTDevice.cpp
+[ 773/1506] Compiling libraries/AP_HAL_Linux/Thread.cpp
+[ 774/1506] Compiling libraries/AP_HAL_Linux/Semaphores.cpp
+[ 775/1506] Compiling libraries/AP_HAL_Linux/SPIDevice.cpp
+[ 776/1506] Compiling libraries/AP_HAL_Linux/RCOutput_ZYNQ.cpp
+[ 777/1506] Compiling libraries/AP_HAL_Linux/RCOutput_Sysfs.cpp
+[ 778/1506] Compiling libraries/AP_HAL_Linux/RCOutput_Raspilot.cpp
+[ 779/1506] Compiling libraries/AP_HAL_Linux/RCOutput_Bebop.cpp
+[ 780/1506] Compiling libraries/AP_HAL_Linux/RCInput_UART.cpp
+[ 781/1506] Compiling libraries/AP_HAL_Linux/RCInput_SBUS.cpp
+[ 782/1506] Compiling libraries/AP_HAL_Linux/RCInput_Raspilot.cpp
+[ 783/1506] Compiling libraries/AP_HAL_Linux/RCInput_RPI.cpp
+[ 784/1506] Compiling libraries/AP_HAL_Linux/RCInput_AioPRU.cpp
+[ 785/1506] Compiling libraries/AP_HAL_Linux/RCInput.cpp
+[ 786/1506] Compiling libraries/AP_HAL_Linux/Poller.cpp
+[ 787/1506] Compiling libraries/AP_HAL_Linux/Perf_Lttng.cpp
+[ 788/1506] Compiling libraries/AP_HAL_Linux/Perf.cpp
+[ 789/1506] Compiling libraries/AP_HAL_Linux/PWM_Sysfs.cpp
+[ 790/1506] Compiling libraries/AP_HAL_Linux/OpticalFlow_Onboard.cpp
+[ 791/1506] Compiling libraries/AP_HAL_Linux/I2CDevice.cpp
+[ 792/1506] Compiling libraries/AP_HAL_Linux/Heat_Pwm.cpp
+[ 793/1506] Compiling libraries/AP_HAL_Linux/HAL_Linux_Class.cpp
+[ 794/1506] Compiling libraries/AP_HAL_Linux/GPIO_RPI.cpp
+[ 795/1506] Compiling libraries/AP_HAL_Linux/GPIO_Minnow.cpp
+[ 796/1506] Compiling libraries/AP_HAL_Linux/GPIO_BBB.cpp
+[ 797/1506] Compiling libraries/AP_HAL_Linux/GPIO_Aero.cpp
+[ 798/1506] Compiling libraries/AP_HAL_Linux/Flow_PX4.cpp
+[ 799/1506] Compiling libraries/AP_HAL_Linux/AnalogIn_IIO.cpp
+[ 800/1506] Compiling libraries/AP_HAL_Empty/Semaphores.cpp
+[ 801/1506] Compiling libraries/AP_HAL_Empty/RCOutput.cpp
+[ 802/1506] Compiling libraries/AP_HAL_Empty/PrivateMember.cpp
+[ 803/1506] Compiling libraries/AP_HAL_Empty/HAL_Empty_Class.cpp
+[ 804/1506] Compiling libraries/AP_HAL_Empty/GPIO.cpp
+[ 805/1506] Compiling libraries/AP_HAL/utility/RingBuffer.cpp
+[ 806/1506] Compiling libraries/AP_HAL/UARTDriver.cpp
+[ 807/1506] Compiling libraries/AP_HAL/HAL.cpp
+[ 808/1506] Compiling libraries/StorageManager/StorageManager.cpp
+[ 809/1506] Compiling libraries/GCS_MAVLink/GCS_MAVLink.cpp
+[ 810/1506] Compiling libraries/GCS_MAVLink/GCS_Common.cpp
+[ 811/1506] Compiling libraries/Filter/LowPassFilter.cpp
+[ 812/1506] Compiling libraries/Filter/DerivativeFilter.cpp
+[ 813/1506] Compiling libraries/DataFlash/DataFlash_SITL.cpp
+[ 814/1506] Compiling libraries/DataFlash/DataFlash_MAVLink.cpp
+[ 815/1506] Compiling libraries/DataFlash/DataFlash_File.cpp
+[ 816/1506] Compiling libraries/DataFlash/DataFlash_Block.cpp
+[ 817/1506] Compiling libraries/DataFlash/DFMessageWriter.cpp
+[ 818/1506] Compiling libraries/AP_Terrain/TerrainUtil.cpp
+[ 819/1506] Compiling libraries/AP_Terrain/TerrainMission.cpp
+[ 820/1506] Compiling libraries/AP_Terrain/TerrainIO.cpp
+[ 821/1506] Compiling libraries/AP_Terrain/AP_Terrain.cpp
+[ 822/1506] Compiling libraries/AP_TECS/AP_TECS.cpp
+[ 823/1506] Compiling libraries/AP_ServoRelayEvents/AP_ServoRelayEvents.cpp
+[ 824/1506] Compiling libraries/AP_SerialManager/AP_SerialManager.cpp
+[ 825/1506] Compiling libraries/AP_Relay/AP_Relay.cpp
+[ 826/1506] Compiling libraries/AP_RangeFinder/RangeFinder.cpp
+[ 827/1506] Compiling libraries/AP_RangeFinder/AP_RangeFinder_uLanding.cpp
+[ 828/1506] Compiling libraries/AP_RangeFinder/AP_RangeFinder_PulsedLightLRF.cpp
+[ 829/1506] Compiling libraries/AP_RangeFinder/AP_RangeFinder_MaxsonarSerialLV.cpp
+[ 830/1506] Compiling libraries/AP_RangeFinder/AP_RangeFinder_MAVLink.cpp
+[ 831/1506] Compiling libraries/AP_RangeFinder/AP_RangeFinder_LightWareI2C.cpp
+[ 832/1506] Compiling libraries/AP_RangeFinder/AP_RangeFinder_Bebop.cpp
+[ 833/1506] Compiling libraries/AP_RangeFinder/AP_RangeFinder_BBB_PRU.cpp
+[ 834/1506] Compiling libraries/AP_RPM/RPM_SITL.cpp
+[ 835/1506] Compiling libraries/AP_OpticalFlow/AP_OpticalFlow_SITL.cpp
+[ 836/1506] Compiling libraries/AP_OpticalFlow/AP_OpticalFlow_Pixart.cpp
+[ 837/1506] Compiling libraries/AP_OpticalFlow/AP_OpticalFlow_PX4Flow.cpp
+[ 838/1506] Compiling libraries/AP_Notify/VRBoard_LED.cpp
+[ 839/1506] Compiling libraries/AP_Notify/ToshibaLED_PX4.cpp
+[ 840/1506] Compiling libraries/AP_Notify/ToshibaLED_I2C.cpp
+[ 841/1506] Compiling libraries/AP_Notify/ToshibaLED.cpp
+[ 842/1506] Compiling libraries/AP_Notify/ToneAlarm_Linux.cpp
+[ 843/1506] Compiling libraries/AP_Notify/RGBLed.cpp
+[ 844/1506] Compiling libraries/AP_Notify/RCOutputRGBLed.cpp
+[ 845/1506] Compiling libraries/AP_Notify/OreoLED_PX4.cpp
+[ 846/1506] Compiling libraries/AP_Notify/NavioLED_I2C.cpp
+[ 847/1506] Compiling libraries/AP_Notify/AP_Notify.cpp
+[ 848/1506] Compiling libraries/AP_Notify/AP_BoardLED.cpp
+[ 849/1506] Compiling libraries/AP_NavEKF2/AP_NavEKF_GyroBias.cpp
+[ 850/1506] Compiling libraries/AP_NavEKF2/AP_NavEKF2_RngBcnFusion.cpp
+[ 851/1506] Compiling libraries/AP_NavEKF2/AP_NavEKF2_OptFlowFusion.cpp
+[ 852/1506] Compiling libraries/AP_NavEKF2/AP_NavEKF2_Control.cpp
+[ 853/1506] Compiling libraries/AP_NavEKF2/AP_NavEKF2_AirDataFusion.cpp
+[ 854/1506] Compiling libraries/AP_Mount/SoloGimbal.cpp
+[ 855/1506] Compiling libraries/AP_Mount/AP_Mount_SoloGimbal.cpp
+[ 856/1506] Compiling libraries/AP_Mount/AP_Mount_SToRM32_serial.cpp
+[ 857/1506] Compiling libraries/AP_Mount/AP_Mount_SToRM32.cpp
+[ 858/1506] Compiling libraries/AP_Mount/AP_Mount_Backend.cpp
+[ 859/1506] Compiling libraries/AP_Mount/AP_Mount.cpp
+[ 860/1506] Compiling libraries/AP_Motors/AP_Motors_Class.cpp
+[ 861/1506] Compiling libraries/AP_Motors/AP_MotorsY6.cpp
+[ 862/1506] Compiling libraries/AP_Motors/AP_MotorsSingle.cpp
+[ 863/1506] Compiling libraries/AP_Motors/AP_MotorsQuad.cpp
+[ 864/1506] Compiling libraries/AP_Motors/AP_MotorsOctaQuad.cpp
+[ 865/1506] Compiling libraries/AP_Motors/AP_MotorsOcta.cpp
+[ 866/1506] Compiling libraries/AP_Motors/AP_MotorsMatrix.cpp
+[ 867/1506] Compiling libraries/AP_Motors/AP_MotorsHexa.cpp
+[ 868/1506] Compiling libraries/AP_Motors/AP_MotorsHeli_Single.cpp
+[ 869/1506] Compiling libraries/AP_Motors/AP_MotorsHeli.cpp
+[ 870/1506] Compiling libraries/AP_Motors/AP_MotorsCoax.cpp
+[ 871/1506] Compiling libraries/AP_Math/vector3.cpp
+[ 872/1506] Compiling libraries/AP_Math/vector2.cpp
+[ 873/1506] Compiling libraries/AP_Math/quaternion.cpp
+[ 874/1506] Compiling libraries/AP_Math/polygon.cpp
+[ 875/1506] Compiling libraries/AP_Math/matrix_alg.cpp
+[ 876/1506] Compiling libraries/AP_Math/location.cpp
+[ 877/1506] Compiling libraries/AP_Math/AP_GeodesicGrid.cpp
+[ 878/1506] Compiling libraries/AP_LandingGear/AP_LandingGear.cpp
+[ 879/1506] Compiling libraries/AP_Landing/AP_Landing.cpp
+[ 880/1506] Compiling libraries/AP_InertialSensor/AP_InertialSensor_qflight.cpp
+[ 881/1506] Compiling libraries/AP_InertialSensor/AP_InertialSensor_SITL.cpp
+[ 882/1506] Compiling libraries/AP_InertialSensor/AP_InertialSensor_QURT.cpp
+[ 883/1506] Compiling libraries/AP_InertialSensor/AP_InertialSensor_PX4.cpp
+[ 884/1506] Compiling libraries/AP_InertialSensor/AP_InertialSensor_Backend.cpp
+[ 885/1506] Compiling libraries/AP_InertialSensor/AP_InertialSensor_BMI160.cpp
+[ 886/1506] Compiling libraries/AP_IRLock/AP_IRLock_SITL.cpp
+[ 887/1506] Compiling libraries/AP_IRLock/AP_IRLock_I2C.cpp
+[ 888/1506] Compiling libraries/AP_Gripper/AP_Gripper_Servo.cpp
+[ 889/1506] Compiling libraries/AP_GPS/AP_GPS_UBLOX.cpp
+[ 890/1506] Compiling libraries/AP_GPS/AP_GPS_SBF.cpp
+[ 891/1506] Compiling libraries/AP_GPS/AP_GPS_NOVA.cpp
+[ 892/1506] Compiling libraries/AP_GPS/AP_GPS_ERB.cpp
+[ 893/1506] Compiling libraries/AP_GPS/AP_GPS.cpp
+[ 894/1506] Compiling libraries/AP_Frsky_Telem/AP_Frsky_Telem.cpp
+[ 895/1506] Compiling libraries/AP_Compass/CompassCalibrator.cpp
+[ 896/1506] Compiling libraries/AP_Compass/AP_Compass_qflight.cpp
+[ 897/1506] Compiling libraries/AP_Compass/AP_Compass_LSM9DS1.cpp
+[ 898/1506] Compiling libraries/AP_Compass/AP_Compass_LIS3MDL.cpp
+[ 899/1506] Compiling libraries/AP_Compass/AP_Compass_HMC5843.cpp
+[ 900/1506] Compiling libraries/AP_Compass/AP_Compass_HIL.cpp
+[ 901/1506] Compiling libraries/AP_Compass/AP_Compass_Calibration.cpp
+[ 902/1506] Compiling libraries/AP_Compass/AP_Compass_BMM150.cpp
+[ 903/1506] Compiling libraries/AP_Compass/AP_Compass_AK09916.cpp
+[ 904/1506] Compiling libraries/AP_Common/c++.cpp
+[ 905/1506] Compiling libraries/AP_Button/AP_Button.cpp
+[ 906/1506] Compiling libraries/AP_BoardConfig/px4_drivers.cpp
+[ 907/1506] Compiling libraries/AP_Beacon/AP_Beacon_SITL.cpp
+[ 908/1506] Compiling libraries/AP_Beacon/AP_Beacon_Backend.cpp
+[ 909/1506] Compiling libraries/AP_Beacon/AP_Beacon.cpp
+[ 910/1506] Compiling libraries/AP_BattMonitor/AP_BattMonitor_SMBus_PX4.cpp
+[ 911/1506] Compiling libraries/AP_BattMonitor/AP_BattMonitor_Analog.cpp
+[ 912/1506] Compiling libraries/AP_Baro/AP_Baro_QURT.cpp
+[ 913/1506] Compiling libraries/AP_Baro/AP_Baro_PX4.cpp
+[ 914/1506] Compiling libraries/AP_Baro/AP_Baro_BMP085.cpp
+[ 915/1506] Compiling libraries/AP_AccelCal/AccelCalibrator.cpp
+[ 916/1506] Compiling libraries/AP_AHRS/AP_AHRS.cpp
+[ 917/1506] Compiling libraries/AP_ADC/AP_ADC_ADS1115.cpp
+[ 918/1506] Compiling libraries/APM_Control/AP_AutoTune.cpp
+[ 919/1506] Compiling libraries/AC_WPNav/AC_Circle.cpp
+[ 920/1506] Compiling libraries/AC_PrecLand/AC_PrecLand_SITL_Gazebo.cpp
+[ 921/1506] Compiling libraries/AC_PID/AC_PI_2D.cpp
+[ 922/1506] Compiling libraries/AC_InputManager/AC_InputManager_Heli.cpp
+[ 923/1506] Compiling libraries/AC_InputManager/AC_InputManager.cpp
+[ 924/1506] Compiling libraries/AC_Fence/AC_PolyFence_loader.cpp
+[ 925/1506] Compiling libraries/AC_Fence/AC_Fence.cpp
+[ 926/1506] Compiling libraries/AC_AttitudeControl/AC_PosControl.cpp
+[ 927/1506] Compiling libraries/AC_AttitudeControl/AC_AttitudeControl_Heli.cpp
+[ 928/1506] Compiling libraries/AC_AttitudeControl/AC_AttitudeControl.cpp
+[ 929/1506] Compiling libraries/AC_AttitudeControl/AC_AttitudeControl_Multi.cpp
+[ 930/1506] Compiling libraries/AC_AttitudeControl/ControlMonitor.cpp
+[ 931/1506] Compiling libraries/AC_Avoidance/AC_Avoid.cpp
+[ 932/1506] Compiling libraries/AC_PID/AC_HELI_PID.cpp
+[ 933/1506] Compiling libraries/AC_PID/AC_P.cpp
+[ 934/1506] Compiling libraries/AC_PID/AC_PID.cpp
+[ 935/1506] Compiling libraries/AC_PrecLand/AC_PrecLand.cpp
+[ 936/1506] Compiling libraries/AC_PrecLand/AC_PrecLand_Companion.cpp
+[ 937/1506] Compiling libraries/AC_PrecLand/AC_PrecLand_IRLock.cpp
+[ 938/1506] Compiling libraries/AC_PrecLand/AC_PrecLand_SITL.cpp
+[ 939/1506] Compiling libraries/AC_PrecLand/PosVelEKF.cpp
+[ 940/1506] Compiling libraries/AC_Sprayer/AC_Sprayer.cpp
+[ 941/1506] Compiling libraries/AC_WPNav/AC_WPNav.cpp
+[ 942/1506] Compiling libraries/APM_Control/AP_PitchController.cpp
+[ 943/1506] Compiling libraries/APM_Control/AP_RollController.cpp
+[ 944/1506] Compiling libraries/APM_Control/AP_SteerController.cpp
+[ 945/1506] Compiling libraries/APM_Control/AP_YawController.cpp
+[ 946/1506] Compiling libraries/AP_ADC/AP_ADC.cpp
+[ 947/1506] Compiling libraries/AP_AHRS/AP_AHRS_DCM.cpp
+[ 948/1506] Compiling libraries/AP_AHRS/AP_AHRS_NavEKF.cpp
+[ 949/1506] Compiling libraries/AP_AdvancedFailsafe/AP_AdvancedFailsafe.cpp
+[ 950/1506] Compiling libraries/AP_Airspeed/AP_Airspeed.cpp
+[ 951/1506] Compiling libraries/AP_Airspeed/AP_Airspeed_I2C.cpp
+[ 952/1506] Compiling libraries/AP_Airspeed/AP_Airspeed_analog.cpp
+[ 953/1506] Compiling libraries/AP_Airspeed/Airspeed_Calibration.cpp
+[ 954/1506] Compiling libraries/AP_Arming/AP_Arming.cpp
+[ 955/1506] Compiling libraries/AP_Baro/AP_Baro.cpp
+[ 956/1506] Compiling libraries/AP_Baro/AP_Baro_Backend.cpp
+[ 957/1506] Compiling libraries/AP_Baro/AP_Baro_HIL.cpp
+[ 958/1506] Compiling libraries/AP_Baro/AP_Baro_MS5611.cpp
+[ 959/1506] Compiling libraries/AP_Baro/AP_Baro_qflight.cpp
+[ 960/1506] Compiling libraries/AP_BattMonitor/AP_BattMonitor_Backend.cpp
+[ 961/1506] Compiling libraries/AP_BattMonitor/AP_BattMonitor_Bebop.cpp
+[ 962/1506] Compiling libraries/AP_BattMonitor/AP_BattMonitor_SMBus_I2C.cpp
+[ 963/1506] Compiling libraries/AP_Beacon/AP_Beacon_Pozyx.cpp
+[ 964/1506] Compiling libraries/AP_BoardConfig/AP_BoardConfig.cpp
+[ 965/1506] Compiling libraries/AP_Camera/AP_Camera.cpp
+[ 966/1506] Compiling libraries/AP_Common/AP_Common.cpp
+[ 967/1506] Compiling libraries/AP_Common/Location.cpp
+[ 968/1506] Compiling libraries/AP_Compass/AP_Compass_AK8963.cpp
+[ 969/1506] Compiling libraries/AP_Compass/AP_Compass_Backend.cpp
+[ 970/1506] Compiling libraries/AP_Compass/AP_Compass_LSM303D.cpp
+[ 971/1506] Compiling libraries/AP_Compass/AP_Compass_PX4.cpp
+[ 972/1506] Compiling libraries/AP_Compass/AP_Compass_QURT.cpp
+[ 973/1506] Compiling libraries/AP_Compass/Compass_learn.cpp
+[ 974/1506] Compiling libraries/AP_Declination/AP_Declination.cpp
+[ 975/1506] Compiling libraries/AP_GPS/AP_GPS_GSOF.cpp
+[ 976/1506] Compiling libraries/AP_GPS/AP_GPS_MAV.cpp
+[ 977/1506] Compiling libraries/AP_GPS/AP_GPS_MTK.cpp
+[ 978/1506] Compiling libraries/AP_GPS/AP_GPS_MTK19.cpp
+[ 979/1506] Compiling libraries/AP_GPS/AP_GPS_NMEA.cpp
+[ 980/1506] Compiling libraries/AP_GPS/AP_GPS_PX4.cpp
+[ 981/1506] Compiling libraries/AP_GPS/AP_GPS_QURT.cpp
+[ 982/1506] Compiling libraries/AP_GPS/AP_GPS_SBP.cpp
+[ 983/1506] Compiling libraries/AP_GPS/AP_GPS_SIRF.cpp
+[ 984/1506] Compiling libraries/AP_GPS/GPS_Backend.cpp
+[ 985/1506] Compiling libraries/AP_Gripper/AP_Gripper.cpp
+[ 986/1506] Compiling libraries/AP_Gripper/AP_Gripper_Backend.cpp
+[ 987/1506] Compiling libraries/AP_Gripper/AP_Gripper_EPM.cpp
+[ 988/1506] Compiling libraries/AP_ICEngine/AP_ICEngine.cpp
+[ 989/1506] Compiling libraries/AP_IRLock/IRLock.cpp
+[ 990/1506] Compiling libraries/AP_InertialNav/AP_InertialNav_NavEKF.cpp
+[ 991/1506] Compiling libraries/AP_InertialSensor/AP_InertialSensor_HIL.cpp
+[ 992/1506] Compiling libraries/AP_InertialSensor/AP_InertialSensor_L3G4200D.cpp
+[ 993/1506] Compiling libraries/AP_InertialSensor/AP_InertialSensor_LSM9DS0.cpp
+[ 994/1506] Compiling libraries/AP_InertialSensor/AP_InertialSensor_MPU6000.cpp
+[ 995/1506] Compiling libraries/AP_InertialSensor/AP_InertialSensor_MPU9250.cpp
+[ 996/1506] Compiling libraries/AP_InertialSensor/AP_InertialSensor_UserInteract_MAVLink.cpp
+[ 997/1506] Compiling libraries/AP_InertialSensor/AP_InertialSensor_UserInteract_Stream.cpp
+[ 998/1506] Compiling libraries/AP_InertialSensor/AuxiliaryBus.cpp
+[ 999/1506] Compiling libraries/AP_L1_Control/AP_L1_Control.cpp
+[1000/1506] Compiling libraries/AP_Landing/AP_Landing_Slope.cpp
+[1001/1506] Compiling libraries/AP_Math/AP_Math.cpp
+[1002/1506] Compiling libraries/AP_Math/edc.cpp
+[1003/1506] Compiling libraries/AP_Math/matrix3.cpp
+[1004/1506] Compiling libraries/AP_Menu/AP_Menu.cpp
+[1005/1506] Compiling libraries/AP_Module/AP_Module.cpp
+[1006/1506] Compiling libraries/AP_Motors/AP_MotorsHeli_RSC.cpp
+[1007/1506] Compiling libraries/AP_Motors/AP_MotorsMulticopter.cpp
+[1008/1506] Compiling libraries/AP_Motors/AP_MotorsTri.cpp
+[1009/1506] Compiling libraries/AP_Mount/AP_Mount_Alexmos.cpp
+[1010/1506] Compiling libraries/AP_Mount/AP_Mount_Servo.cpp
+[1011/1506] Compiling libraries/AP_Mount/SoloGimbalEKF.cpp
+[1012/1506] Compiling libraries/AP_Mount/SoloGimbal_Parameters.cpp
+[1013/1506] Compiling libraries/AP_NavEKF2/AP_NavEKF2_MagFusion.cpp
+[1014/1506] Compiling libraries/AP_NavEKF2/AP_NavEKF2_Measurements.cpp
+[1015/1506] Compiling libraries/AP_NavEKF2/AP_NavEKF2_Outputs.cpp
+[1016/1506] Compiling libraries/AP_NavEKF2/AP_NavEKF2_PosVelFusion.cpp
+[1017/1506] Compiling libraries/AP_NavEKF2/AP_NavEKF2_VehicleStatus.cpp
+[1018/1506] Compiling libraries/AP_NavEKF2/AP_NavEKF2_core.cpp
+[1019/1506] Compiling libraries/AP_Notify/Buzzer.cpp
+[1020/1506] Compiling libraries/AP_Notify/DiscoLED.cpp
+[1021/1506] Compiling libraries/AP_Notify/DiscreteRGBLed.cpp
+[1022/1506] Compiling libraries/AP_Notify/Display.cpp
+[1023/1506] Compiling libraries/AP_Notify/Display_SSD1306_I2C.cpp
+[1024/1506] Compiling libraries/AP_Notify/ExternalLED.cpp
+[1025/1506] Compiling libraries/AP_Notify/NavioLED.cpp
+[1026/1506] Compiling libraries/AP_Notify/ToneAlarm_PX4.cpp
+[1027/1506] Compiling libraries/AP_Notify/ToneAlarm_PX4_Solo.cpp
+[1028/1506] Compiling libraries/AP_OpticalFlow/AP_OpticalFlow_Onboard.cpp
+[1029/1506] Compiling libraries/AP_OpticalFlow/OpticalFlow.cpp
+[1030/1506] Compiling libraries/AP_OpticalFlow/OpticalFlow_backend.cpp
+[1031/1506] Compiling libraries/AP_Parachute/AP_Parachute.cpp
+[1032/1506] Compiling libraries/AP_Param/AP_Param.cpp
+[1033/1506] Compiling libraries/AP_Proximity/AP_Proximity.cpp
+[1034/1506] Compiling libraries/AP_Proximity/AP_Proximity_Backend.cpp
+[1035/1506] Compiling libraries/AP_Proximity/AP_Proximity_LightWareSF40C.cpp
+[1036/1506] Compiling libraries/AP_Proximity/AP_Proximity_SITL.cpp
+[1037/1506] Compiling libraries/AP_RCMapper/AP_RCMapper.cpp
+[1038/1506] Compiling libraries/AP_RPM/AP_RPM.cpp
+[1039/1506] Compiling libraries/AP_RPM/RPM_Backend.cpp
+[1040/1506] Compiling libraries/AP_RPM/RPM_PX4_PWM.cpp
+[1041/1506] Compiling libraries/AP_RSSI/AP_RSSI.cpp
+[1042/1506] Compiling libraries/AP_RangeFinder/AP_RangeFinder_LeddarOne.cpp
+[1043/1506] Compiling libraries/AP_RangeFinder/AP_RangeFinder_LightWareSerial.cpp
+[1044/1506] Compiling libraries/AP_RangeFinder/AP_RangeFinder_MaxsonarI2CXL.cpp
+[1045/1506] Compiling libraries/AP_RangeFinder/AP_RangeFinder_PX4.cpp
+[1046/1506] Compiling libraries/AP_RangeFinder/AP_RangeFinder_PX4_PWM.cpp
+[1047/1506] Compiling libraries/AP_RangeFinder/AP_RangeFinder_analog.cpp
+[1048/1506] Compiling libraries/AP_RangeFinder/RangeFinder_Backend.cpp
+[1049/1506] Compiling libraries/AP_Stats/AP_Stats.cpp
+[1050/1506] Compiling libraries/AP_Terrain/TerrainGCS.cpp
+[1051/1506] Compiling libraries/AP_Tuning/AP_Tuning.cpp
+[1052/1506] Compiling libraries/DataFlash/DataFlash.cpp
+[1053/1506] Compiling libraries/DataFlash/DataFlash_Backend.cpp
+[1054/1506] Compiling libraries/DataFlash/LogFile.cpp
+[1055/1506] Compiling libraries/Filter/LowPassFilter2p.cpp
+[1056/1506] Compiling libraries/GCS_MAVLink/GCS_DeviceOp.cpp
+[1057/1506] Compiling libraries/GCS_MAVLink/GCS_Logs.cpp
+[1058/1506] Compiling libraries/GCS_MAVLink/GCS_Signing.cpp
+[1059/1506] Compiling libraries/GCS_MAVLink/GCS_serial_control.cpp
+[1060/1506] Compiling libraries/GCS_MAVLink/MAVLink_routing.cpp
+[1061/1506] Compiling libraries/PID/PID.cpp
+[1062/1506] Compiling libraries/RC_Channel/RC_Channel.cpp
+[1063/1506] Compiling libraries/RC_Channel/RC_Channel_aux.cpp
+[1064/1506] Compiling libraries/RC_Channel/SRV_Channel.cpp
+[1065/1506] Compiling libraries/AP_HAL/Device.cpp
+[1066/1506] Compiling libraries/AP_HAL/Util.cpp
+[1067/1506] Compiling libraries/AP_HAL/utility/Print.cpp
+[1068/1506] Compiling libraries/AP_HAL/utility/Socket.cpp
+[1069/1506] Compiling libraries/AP_HAL/utility/dsm.cpp
+[1070/1506] Compiling libraries/AP_HAL/utility/ftoa_engine.cpp
+[1071/1506] Compiling libraries/AP_HAL/utility/getopt_cpp.cpp
+[1072/1506] Compiling libraries/AP_HAL/utility/print_vprintf.cpp
+[1073/1506] Compiling libraries/AP_HAL/utility/srxl.cpp
+[1074/1506] Compiling libraries/AP_HAL/utility/st24.cpp
+[1075/1506] Compiling libraries/AP_HAL/utility/sumd.cpp
+[1076/1506] Compiling libraries/AP_HAL/utility/utoa_invert.cpp
+[1077/1506] Compiling libraries/AP_HAL_Empty/AnalogIn.cpp
+[1078/1506] Compiling libraries/AP_HAL_Empty/RCInput.cpp
+[1079/1506] Compiling libraries/AP_HAL_Empty/Scheduler.cpp
+[1080/1506] Compiling libraries/AP_HAL_Empty/Storage.cpp
+[1081/1506] Compiling libraries/AP_HAL_Empty/UARTDriver.cpp
+[1082/1506] Compiling libraries/AP_HAL_Linux/AnalogIn_ADS1115.cpp
+[1083/1506] Compiling libraries/AP_HAL_Linux/AnalogIn_Navio2.cpp
+[1084/1506] Compiling libraries/AP_HAL_Linux/AnalogIn_Raspilot.cpp
+[1085/1506] Compiling libraries/AP_HAL_Linux/CameraSensor.cpp
+[1086/1506] Compiling libraries/AP_HAL_Linux/CameraSensor_Mt9v117.cpp
+[1087/1506] Compiling libraries/AP_HAL_Linux/CameraSensor_Mt9v117_Patches.cpp
+[1088/1506] Compiling libraries/AP_HAL_Linux/ConsoleDevice.cpp
+[1089/1506] Compiling libraries/AP_HAL_Linux/GPIO.cpp
+[1090/1506] Compiling libraries/AP_HAL_Linux/GPIO_Bebop.cpp
+[1091/1506] Compiling libraries/AP_HAL_Linux/GPIO_Disco.cpp
+[1092/1506] Compiling libraries/AP_HAL_Linux/GPIO_Sysfs.cpp
+[1093/1506] Compiling libraries/AP_HAL_Linux/PollerThread.cpp
+[1094/1506] Compiling libraries/AP_HAL_Linux/RCInput_115200.cpp
+[1095/1506] Compiling libraries/AP_HAL_Linux/RCInput_DSM.cpp
+[1096/1506] Compiling libraries/AP_HAL_Linux/RCInput_Multi.cpp
+[1097/1506] Compiling libraries/AP_HAL_Linux/RCInput_Navio2.cpp
+[1098/1506] Compiling libraries/AP_HAL_Linux/RCInput_PRU.cpp
+[1099/1506] Compiling libraries/AP_HAL_Linux/RCInput_UDP.cpp
+[1100/1506] Compiling libraries/AP_HAL_Linux/RCInput_ZYNQ.cpp
+[1101/1506] Compiling libraries/AP_HAL_Linux/RCOutput_AeroIO.cpp
+[1102/1506] Compiling libraries/AP_HAL_Linux/RCOutput_AioPRU.cpp
+[1103/1506] Compiling libraries/AP_HAL_Linux/RCOutput_Disco.cpp
+[1104/1506] Compiling libraries/AP_HAL_Linux/RCOutput_PCA9685.cpp
+[1105/1506] Compiling libraries/AP_HAL_Linux/RCOutput_PRU.cpp
+[1106/1506] Compiling libraries/AP_HAL_Linux/RCOutput_qflight.cpp
+[1107/1506] Compiling libraries/AP_HAL_Linux/RPIOUARTDriver.cpp
+[1108/1506] Compiling libraries/AP_HAL_Linux/SPIUARTDriver.cpp
+[1109/1506] Compiling libraries/AP_HAL_Linux/TCPServerDevice.cpp
+[1110/1506] Compiling libraries/AP_HAL_Linux/ToneAlarm.cpp
+[1111/1506] Compiling libraries/AP_HAL_Linux/ToneAlarm_Disco.cpp
+[1112/1506] Compiling libraries/AP_HAL_Linux/ToneAlarm_Raspilot.cpp
+[1113/1506] Compiling libraries/AP_HAL_Linux/UARTQFlight.cpp
+[1114/1506] Compiling libraries/AP_HAL_Linux/Util_RPI.cpp
+[1115/1506] Compiling libraries/AP_HAL_Linux/system.cpp
+[1116/1506] Compiling libraries/AP_AccelCal/AP_AccelCal.cpp
+[1117/1506] Compiling libraries/AP_InertialSensor/AP_InertialSensor.cpp
+[1118/1506] Compiling libraries/AP_Mission/AP_Mission.cpp
+[1119/1506] Compiling libraries/AP_NavEKF/AP_NavEKF.cpp
+[1120/1506] Compiling libraries/AP_NavEKF/AP_NavEKF_core.cpp
+[1121/1506] Compiling libraries/AP_Rally/AP_Rally.cpp
+[1122/1506] Compiling libraries/AP_HAL_Linux/Scheduler.cpp
+[1123/1506] Compiling libraries/AP_HAL_Linux/Storage.cpp
+[1124/1506] Compiling APMrover2/Rover.cpp
+[1125/1506] Compiling APMrover2/capabilities.cpp
+[1126/1506] Compiling APMrover2/commands_logic.cpp
+[1127/1506] Compiling APMrover2/commands_process.cpp
+[1128/1506] Compiling APMrover2/control_modes.cpp
+[1129/1506] Compiling APMrover2/failsafe.cpp
+[1130/1506] Compiling APMrover2/navigation.cpp
+[1131/1506] Compiling APMrover2/sensors.cpp
+[1132/1506] Compiling APMrover2/setup.cpp
+[1133/1506] Compiling APMrover2/test.cpp
+[1134/1506] Compiling libraries/AP_AccelCal/AP_AccelCal.cpp
+[1135/1506] Compiling libraries/AP_InertialSensor/AP_InertialSensor.cpp
+[1136/1506] Compiling libraries/AP_NavEKF/AP_NavEKF_core.cpp
+[1137/1506] Compiling libraries/AP_NavEKF2/AP_NavEKF2.cpp
+[1138/1506] Compiling libraries/AP_Rally/AP_Rally.cpp
+[1139/1506] Compiling libraries/AP_HAL_Linux/Scheduler.cpp
+[1140/1506] Compiling libraries/AP_HAL_Linux/Storage.cpp
+[1141/1506] Compiling AntennaTracker/AntennaTracker.cpp
+[1142/1506] Compiling AntennaTracker/Parameters.cpp
+[1143/1506] Compiling AntennaTracker/control_auto.cpp
+[1144/1506] Compiling AntennaTracker/control_scan.cpp
+[1145/1506] Compiling AntennaTracker/control_servo_test.cpp
+[1146/1506] Compiling AntennaTracker/sensors.cpp
+[1147/1506] Compiling AntennaTracker/servos.cpp
+[1148/1506] Compiling libraries/AP_AccelCal/AP_AccelCal.cpp
+[1149/1506] Compiling libraries/AP_BattMonitor/AP_BattMonitor.cpp
+[1150/1506] Compiling libraries/AP_Compass/AP_Compass.cpp
+[1151/1506] Compiling libraries/AP_InertialSensor/AP_InertialSensor.cpp
+[1152/1506] Compiling libraries/AP_NavEKF/AP_NavEKF.cpp
+[1153/1506] Compiling libraries/AP_NavEKF2/AP_NavEKF2.cpp
+[1154/1506] Compiling libraries/AP_Rally/AP_Rally.cpp
+[1155/1506] Compiling libraries/AP_Scheduler/AP_Scheduler.cpp
+[1156/1506] Compiling libraries/AP_Avoidance/AP_Avoidance.cpp
+[1157/1506] Compiling ArduCopter/AP_State.cpp
+[1158/1506] Compiling ArduCopter/Copter.cpp
+[1159/1506] Compiling ArduCopter/GCS_Mavlink.cpp
+[1160/1506] Compiling ArduCopter/Log.cpp
+[1161/1506] Compiling ArduCopter/Parameters.cpp
+[1162/1506] Compiling ArduCopter/afs_copter.cpp
+[1163/1506] Compiling ArduCopter/capabilities.cpp
+[1164/1506] Compiling ArduCopter/commands.cpp
+[1165/1506] Compiling ArduCopter/commands_logic.cpp
+[1166/1506] Compiling ArduCopter/compassmot.cpp
+[1167/1506] Compiling ArduCopter/control_acro.cpp
+[1168/1506] Compiling ArduCopter/control_circle.cpp
+[1169/1506] Compiling ArduCopter/control_flip.cpp
+[1170/1506] Compiling ArduCopter/control_guided_nogps.cpp
+[1171/1506] Compiling ArduCopter/control_land.cpp
+[1172/1506] Compiling ArduCopter/control_loiter.cpp
+[1173/1506] Compiling ArduCopter/control_poshold.cpp
+[1174/1506] Compiling ArduCopter/failsafe.cpp
+[1175/1506] Compiling ArduCopter/heli_control_acro.cpp
+[1176/1506] Compiling ArduCopter/inertia.cpp
+[1177/1506] Compiling ArduCopter/motor_test.cpp
+[1178/1506] Compiling ArduCopter/motors.cpp
+[1179/1506] Compiling ArduCopter/position_vector.cpp
+[1180/1506] Compiling ArduCopter/sensors.cpp
+[1181/1506] Compiling ArduCopter/setup.cpp
+[1182/1506] Compiling ArduCopter/switches.cpp
+[1183/1506] Compiling ArduCopter/system.cpp
+[1184/1506] Compiling ArduCopter/terrain.cpp
+[1185/1506] Compiling ArduCopter/test.cpp
+[1186/1506] Compiling ArduCopter/tuning.cpp
+[1187/1506] Compiling ArduCopter/AP_Rally.cpp
+[1188/1506] Compiling ArduCopter/AP_State.cpp
+[1189/1506] Compiling ArduCopter/ArduCopter.cpp
+[1190/1506] Compiling ArduCopter/GCS_Mavlink.cpp
+[1191/1506] Compiling ArduCopter/Parameters.cpp
+[1192/1506] Compiling ArduCopter/UserCode.cpp
+[1193/1506] Compiling ArduCopter/arming_checks.cpp
+[1194/1506] Compiling ArduCopter/baro_ground_effect.cpp
+[1195/1506] Compiling ArduCopter/commands.cpp
+[1196/1506] Compiling ArduCopter/commands_logic.cpp
+[1197/1506] Compiling ArduCopter/control_acro.cpp
+[1198/1506] Compiling ArduCopter/control_auto.cpp
+[1199/1506] Compiling ArduCopter/control_circle.cpp
+[1200/1506] Compiling ArduCopter/control_flip.cpp
+[1201/1506] Compiling ArduCopter/control_loiter.cpp
+[1202/1506] Compiling ArduCopter/control_poshold.cpp
+[1203/1506] Compiling ArduCopter/control_rtl.cpp
+[1204/1506] Compiling ArduCopter/control_sport.cpp
+[1205/1506] Compiling ArduCopter/control_throw.cpp
+[1206/1506] Compiling ArduCopter/failsafe.cpp
+[1207/1506] Compiling ArduCopter/heli_control_acro.cpp
+[1208/1506] Compiling ArduCopter/heli_control_stabilize.cpp
+[1209/1506] Compiling ArduCopter/land_detector.cpp
+[1210/1506] Compiling ArduCopter/landing_gear.cpp
+[1211/1506] Compiling ArduCopter/leds.cpp
+[1212/1506] Compiling ArduCopter/motor_test.cpp
+[1213/1506] Compiling ArduCopter/navigation.cpp
+[1214/1506] Compiling ArduCopter/perf_info.cpp
+[1215/1506] Compiling ArduCopter/sensors.cpp
+[1216/1506] Compiling ArduCopter/switches.cpp
+[1217/1506] Compiling ArduCopter/tuning.cpp
+[1218/1506] Compiling ArduCopter/AP_State.cpp
+[1219/1506] Compiling ArduCopter/ArduCopter.cpp
+[1220/1506] Compiling ArduCopter/Copter.cpp
+[1221/1506] Compiling ArduCopter/GCS_Mavlink.cpp
+[1222/1506] Compiling ArduCopter/afs_copter.cpp
+[1223/1506] Compiling ArduCopter/capabilities.cpp
+[1224/1506] Compiling ArduCopter/compassmot.cpp
+[1225/1506] Compiling ArduCopter/compat.cpp
+[1226/1506] Compiling ArduCopter/control_auto.cpp
+[1227/1506] Compiling ArduCopter/control_autotune.cpp
+[1228/1506] Compiling ArduCopter/control_brake.cpp
+[1229/1506] Compiling ArduCopter/control_drift.cpp
+[1230/1506] Compiling ArduCopter/control_rtl.cpp
+[1231/1506] Compiling ArduCopter/control_stabilize.cpp
+[1232/1506] Compiling ArduCopter/crash_check.cpp
+[1233/1506] Compiling ArduCopter/ekf_check.cpp
+[1234/1506] Compiling ArduCopter/esc_calibration.cpp
+[1235/1506] Compiling ArduCopter/flight_mode.cpp
+[1236/1506] Compiling ArduCopter/heli_control_acro.cpp
+[1237/1506] Compiling ArduCopter/inertia.cpp
+[1238/1506] Compiling ArduCopter/land_detector.cpp
+[1239/1506] Compiling ArduCopter/leds.cpp
+[1240/1506] Compiling ArduCopter/motors.cpp
+[1241/1506] Compiling ArduCopter/perf_info.cpp
+[1242/1506] Compiling ArduCopter/precision_landing.cpp
+[1243/1506] Compiling ArduCopter/radio.cpp
+[1244/1506] Compiling ArduCopter/switches.cpp
+[1245/1506] Compiling ArduCopter/system.cpp
+[1246/1506] Compiling ArduCopter/test.cpp
+[1247/1506] Compiling ArduCopter/AP_Rally.cpp
+[1248/1506] Compiling ArduCopter/AP_State.cpp
+[1249/1506] Compiling ArduCopter/ArduCopter.cpp
+[1250/1506] Compiling ArduCopter/UserCode.cpp
+[1251/1506] Compiling ArduCopter/arming_checks.cpp
+[1252/1506] Compiling ArduCopter/capabilities.cpp
+[1253/1506] Compiling ArduCopter/commands.cpp
+[1254/1506] Compiling ArduCopter/commands_logic.cpp
+[1255/1506] Compiling ArduCopter/compassmot.cpp
+[1256/1506] Compiling ArduCopter/compat.cpp
+[1257/1506] Compiling ArduCopter/control_autotune.cpp
+[1258/1506] Compiling ArduCopter/control_circle.cpp
+[1259/1506] Compiling ArduCopter/control_flip.cpp
+[1260/1506] Compiling ArduCopter/control_guided_nogps.cpp
+[1261/1506] Compiling ArduCopter/control_rtl.cpp
+[1262/1506] Compiling ArduCopter/control_throw.cpp
+[1263/1506] Compiling ArduCopter/crash_check.cpp
+[1264/1506] Compiling ArduCopter/ekf_check.cpp
+[1265/1506] Compiling ArduCopter/esc_calibration.cpp
+[1266/1506] Compiling ArduCopter/fence.cpp
+[1267/1506] Compiling ArduCopter/flight_mode.cpp
+[1268/1506] Compiling ArduCopter/heli_control_acro.cpp
+[1269/1506] Compiling ArduCopter/land_detector.cpp
+[1270/1506] Compiling ArduCopter/motor_test.cpp
+[1271/1506] Compiling ArduCopter/navigation.cpp
+[1272/1506] Compiling ArduCopter/perf_info.cpp
+[1273/1506] Compiling ArduCopter/precision_landing.cpp
+[1274/1506] Compiling ArduCopter/switches.cpp
+[1275/1506] Compiling ArduCopter/takeoff.cpp
+[1276/1506] Compiling ArduCopter/tuning.cpp
+[1277/1506] Compiling ArduCopter/ArduCopter.cpp
+[1278/1506] Compiling ArduCopter/UserCode.cpp
+[1279/1506] Compiling ArduCopter/afs_copter.cpp
+[1280/1506] Compiling ArduCopter/arming_checks.cpp
+[1281/1506] Compiling ArduCopter/baro_ground_effect.cpp
+[1282/1506] Compiling ArduCopter/commands_logic.cpp
+[1283/1506] Compiling ArduCopter/compassmot.cpp
+[1284/1506] Compiling ArduCopter/compat.cpp
+[1285/1506] Compiling ArduCopter/control_acro.cpp
+[1286/1506] Compiling ArduCopter/control_brake.cpp
+[1287/1506] Compiling ArduCopter/control_guided.cpp
+[1288/1506] Compiling ArduCopter/control_guided_nogps.cpp
+[1289/1506] Compiling ArduCopter/control_poshold.cpp
+[1290/1506] Compiling ArduCopter/control_rtl.cpp
+[1291/1506] Compiling ArduCopter/control_stabilize.cpp
+[1292/1506] Compiling ArduCopter/ekf_check.cpp
+[1293/1506] Compiling ArduCopter/events.cpp
+[1294/1506] Compiling ArduCopter/failsafe.cpp
+[1295/1506] Compiling ArduCopter/fence.cpp
+[1296/1506] Compiling ArduCopter/flight_mode.cpp
+[1297/1506] Compiling ArduCopter/heli_control_acro.cpp
+[1298/1506] Compiling ArduCopter/heli_control_stabilize.cpp
+[1299/1506] Compiling ArduCopter/landing_gear.cpp
+[1300/1506] Compiling ArduCopter/position_vector.cpp
+[1301/1506] Compiling ArduCopter/sensors.cpp
+[1302/1506] Compiling ArduCopter/setup.cpp
+[1303/1506] Compiling ArduCopter/switches.cpp
+[1304/1506] Compiling ArduCopter/system.cpp
+[1305/1506] Compiling ArduCopter/terrain.cpp
+[1306/1506] Compiling ArduCopter/test.cpp
+[1307/1506] Compiling ArduCopter/tuning.cpp
+[1308/1506] Compiling ArduCopter/AP_Rally.cpp
+[1309/1506] Compiling ArduCopter/AP_State.cpp
+[1310/1506] Compiling ArduCopter/Attitude.cpp
+[1311/1506] Compiling ArduCopter/Copter.cpp
+[1312/1506] Compiling ArduCopter/Log.cpp
+[1313/1506] Compiling ArduCopter/UserCode.cpp
+[1314/1506] Compiling ArduCopter/afs_copter.cpp
+[1315/1506] Compiling ArduCopter/baro_ground_effect.cpp
+[1316/1506] Compiling ArduCopter/capabilities.cpp
+[1317/1506] Compiling ArduCopter/commands_logic.cpp
+[1318/1506] Compiling ArduCopter/compassmot.cpp
+[1319/1506] Compiling ArduCopter/compat.cpp
+[1320/1506] Compiling ArduCopter/control_acro.cpp
+[1321/1506] Compiling ArduCopter/control_althold.cpp
+[1322/1506] Compiling ArduCopter/control_avoid_adsb.cpp
+[1323/1506] Compiling ArduCopter/control_circle.cpp
+[1324/1506] Compiling ArduCopter/control_drift.cpp
+[1325/1506] Compiling ArduCopter/control_guided_nogps.cpp
+[1326/1506] Compiling ArduCopter/control_poshold.cpp
+[1327/1506] Compiling ArduCopter/control_throw.cpp
+[1328/1506] Compiling ArduCopter/crash_check.cpp
+[1329/1506] Compiling ArduCopter/ekf_check.cpp
+[1330/1506] Compiling ArduCopter/events.cpp
+[1331/1506] Compiling ArduCopter/failsafe.cpp
+[1332/1506] Compiling ArduCopter/inertia.cpp
+[1333/1506] Compiling ArduCopter/leds.cpp
+[1334/1506] Compiling ArduCopter/motors.cpp
+[1335/1506] Compiling ArduCopter/precision_landing.cpp
+[1336/1506] Compiling ArduCopter/radio.cpp
+[1337/1506] Compiling ArduCopter/sensors.cpp
+[1338/1506] Compiling ArduCopter/switches.cpp
+[1339/1506] Compiling ArduCopter/takeoff.cpp
+[1340/1506] Compiling ArduCopter/terrain.cpp
+[1341/1506] Compiling ArduCopter/test.cpp
+[1342/1506] Compiling ArduCopter/Copter.cpp
+[1343/1506] Compiling ArduCopter/Log.cpp
+[1344/1506] Compiling ArduCopter/Parameters.cpp
+[1345/1506] Compiling ArduCopter/UserCode.cpp
+[1346/1506] Compiling ArduCopter/avoidance_adsb.cpp
+[1347/1506] Compiling ArduCopter/baro_ground_effect.cpp
+[1348/1506] Compiling ArduCopter/capabilities.cpp
+[1349/1506] Compiling ArduCopter/commands_logic.cpp
+[1350/1506] Compiling ArduCopter/compassmot.cpp
+[1351/1506] Compiling ArduCopter/control_auto.cpp
+[1352/1506] Compiling ArduCopter/control_avoid_adsb.cpp
+[1353/1506] Compiling ArduCopter/control_circle.cpp
+[1354/1506] Compiling ArduCopter/control_drift.cpp
+[1355/1506] Compiling ArduCopter/control_guided.cpp
+[1356/1506] Compiling ArduCopter/control_guided_nogps.cpp
+[1357/1506] Compiling ArduCopter/control_land.cpp
+[1358/1506] Compiling ArduCopter/control_poshold.cpp
+[1359/1506] Compiling ArduCopter/control_sport.cpp
+[1360/1506] Compiling ArduCopter/crash_check.cpp
+[1361/1506] Compiling ArduCopter/failsafe.cpp
+[1362/1506] Compiling ArduCopter/heli.cpp
+[1363/1506] Compiling ArduCopter/inertia.cpp
+[1364/1506] Compiling ArduCopter/land_detector.cpp
+[1365/1506] Compiling ArduCopter/leds.cpp
+[1366/1506] Compiling ArduCopter/motor_test.cpp
+[1367/1506] Compiling ArduCopter/motors.cpp
+[1368/1506] Compiling ArduCopter/perf_info.cpp
+[1369/1506] Compiling ArduCopter/precision_landing.cpp
+[1370/1506] Compiling ArduCopter/sensors.cpp
+[1371/1506] Compiling ArduCopter/setup.cpp
+[1372/1506] Compiling ArduCopter/system.cpp
+[1373/1506] Compiling ArduCopter/tuning.cpp
+[1374/1506] Compiling ArduCopter/AP_State.cpp
+[1375/1506] Compiling ArduCopter/Attitude.cpp
+[1376/1506] Compiling ArduCopter/Copter.cpp
+[1377/1506] Compiling ArduCopter/GCS_Mavlink.cpp
+[1378/1506] Compiling ArduCopter/Log.cpp
+[1379/1506] Compiling ArduCopter/Parameters.cpp
+[1380/1506] Compiling ArduCopter/UserCode.cpp
+[1381/1506] Compiling ArduCopter/arming_checks.cpp
+[1382/1506] Compiling ArduCopter/avoidance_adsb.cpp
+[1383/1506] Compiling ArduCopter/baro_ground_effect.cpp
+[1384/1506] Compiling ArduCopter/capabilities.cpp
+[1385/1506] Compiling ArduCopter/commands.cpp
+[1386/1506] Compiling ArduCopter/commands_logic.cpp
+[1387/1506] Compiling ArduCopter/control_auto.cpp
+[1388/1506] Compiling ArduCopter/control_autotune.cpp
+[1389/1506] Compiling ArduCopter/control_avoid_adsb.cpp
+[1390/1506] Compiling ArduCopter/control_circle.cpp
+[1391/1506] Compiling ArduCopter/control_flip.cpp
+[1392/1506] Compiling ArduCopter/control_guided.cpp
+[1393/1506] Compiling ArduCopter/control_loiter.cpp
+[1394/1506] Compiling ArduCopter/crash_check.cpp
+[1395/1506] Compiling ArduCopter/ekf_check.cpp
+[1396/1506] Compiling ArduCopter/esc_calibration.cpp
+[1397/1506] Compiling ArduCopter/heli_control_acro.cpp
+[1398/1506] Compiling ArduCopter/heli_control_stabilize.cpp
+[1399/1506] Compiling ArduCopter/inertia.cpp
+[1400/1506] Compiling ArduCopter/land_detector.cpp
+[1401/1506] Compiling ArduCopter/leds.cpp
+[1402/1506] Compiling ArduCopter/motor_test.cpp
+[1403/1506] Compiling ArduCopter/motors.cpp
+[1404/1506] Compiling ArduCopter/navigation.cpp
+[1405/1506] Compiling ArduCopter/precision_landing.cpp
+[1406/1506] Compiling ArduCopter/radio.cpp
+[1407/1506] Compiling ArduCopter/setup.cpp
+[1408/1506] Compiling ArduCopter/system.cpp
+[1409/1506] Compiling ArduCopter/takeoff.cpp
+[1410/1506] Compiling ArduCopter/terrain.cpp
+[1411/1506] Compiling ArduCopter/tuning.cpp
+[1412/1506] Compiling ArduCopter/Copter.cpp
+[1413/1506] Compiling ArduCopter/afs_copter.cpp
+[1414/1506] Compiling ArduCopter/arming_checks.cpp
+[1415/1506] Compiling ArduCopter/baro_ground_effect.cpp
+[1416/1506] Compiling ArduCopter/capabilities.cpp
+[1417/1506] Compiling ArduCopter/compassmot.cpp
+[1418/1506] Compiling ArduCopter/control_acro.cpp
+[1419/1506] Compiling ArduCopter/control_avoid_adsb.cpp
+[1420/1506] Compiling ArduCopter/control_brake.cpp
+[1421/1506] Compiling ArduCopter/control_circle.cpp
+[1422/1506] Compiling ArduCopter/control_guided.cpp
+[1423/1506] Compiling ArduCopter/control_rtl.cpp
+[1424/1506] Compiling ArduCopter/control_sport.cpp
+[1425/1506] Compiling ArduCopter/control_throw.cpp
+[1426/1506] Compiling ArduCopter/crash_check.cpp
+[1427/1506] Compiling ArduCopter/ekf_check.cpp
+[1428/1506] Compiling ArduCopter/esc_calibration.cpp
+[1429/1506] Compiling ArduCopter/failsafe.cpp
+[1430/1506] Compiling ArduCopter/flight_mode.cpp
+[1431/1506] Compiling ArduCopter/heli.cpp
+[1432/1506] Compiling ArduCopter/heli_control_stabilize.cpp
+[1433/1506] Compiling ArduCopter/land_detector.cpp
+[1434/1506] Compiling ArduCopter/landing_gear.cpp
+[1435/1506] Compiling ArduCopter/position_vector.cpp
+[1436/1506] Compiling ArduCopter/setup.cpp
+[1437/1506] Compiling ArduCopter/test.cpp
+[1438/1506] Compiling libraries/AP_AccelCal/AP_AccelCal.cpp
+[1439/1506] Compiling libraries/AP_BattMonitor/AP_BattMonitor.cpp
+[1440/1506] Compiling libraries/AP_InertialSensor/AP_InertialSensor.cpp
+[1441/1506] Compiling libraries/AP_Mission/AP_Mission.cpp
+[1442/1506] Compiling libraries/AP_NavEKF/AP_NavEKF_core.cpp
+[1443/1506] Compiling libraries/AP_NavEKF2/AP_NavEKF2.cpp
+[1444/1506] Compiling libraries/AP_Avoidance/AP_Avoidance.cpp
+[1445/1506] Compiling libraries/AP_HAL_Linux/Scheduler.cpp
+[1446/1506] Compiling libraries/AP_HAL_Linux/Storage.cpp
+[1447/1506] Compiling ArduPlane/Log.cpp
+[1448/1506] Compiling ArduPlane/altitude.cpp
+[1449/1506] Compiling ArduPlane/commands.cpp
+[1450/1506] Compiling ArduPlane/failsafe.cpp
+[1451/1506] Compiling ArduPlane/geofence.cpp
+[1452/1506] Compiling ArduPlane/is_flying.cpp
+[1453/1506] Compiling ArduPlane/parachute.cpp
+[1454/1506] Compiling ArduPlane/px4_mixer.cpp
+[1455/1506] Compiling ArduPlane/quadplane.cpp
+[1456/1506] Compiling ArduPlane/sensors.cpp
+[1457/1506] Compiling ArduPlane/test.cpp
+[1458/1506] Compiling ArduPlane/tiltrotor.cpp
+[1459/1506] Compiling ArduPlane/tuning.cpp
+[1460/1506] Compiling ArduPlane/GCS_Mavlink.cpp
+[1461/1506] Compiling ArduPlane/Log.cpp
+[1462/1506] Compiling ArduPlane/capabilities.cpp
+[1463/1506] Compiling ArduPlane/parachute.cpp
+[1464/1506] Compiling ArduPlane/sensors.cpp
+[1465/1506] Compiling ArduPlane/servos.cpp
+[1466/1506] Compiling ArduPlane/setup.cpp
+[1467/1506] Compiling ArduPlane/takeoff.cpp
+[1468/1506] Compiling ArduPlane/tuning.cpp
+[1469/1506] Linking build/bjpilot/lib/libArduCopter_libs.a
+[1470/1506] Compiling ArduPlane/Parameters.cpp
+[1471/1506] Compiling ArduPlane/afs_plane.cpp
+[1472/1506] Compiling ArduPlane/altitude.cpp
+[1473/1506] Compiling ArduPlane/avoidance_adsb.cpp
+[1474/1506] Compiling ArduPlane/commands.cpp
+[1475/1506] Compiling ArduPlane/commands_logic.cpp
+[1476/1506] Compiling ArduPlane/geofence.cpp
+[1477/1506] Compiling ArduPlane/is_flying.cpp
+[1478/1506] Compiling ArduPlane/radio.cpp
+[1479/1506] Compiling ArduPlane/test.cpp
+[1480/1506] Compiling ArduPlane/tiltrotor.cpp
+[1481/1506] Compiling ArduPlane/system.cpp
+[1482/1506] Compiling ArduPlane/quadplane.cpp
+[1483/1506] Compiling ArduPlane/px4_mixer.cpp
+[1484/1506] Compiling ArduPlane/navigation.cpp
+[1485/1506] Compiling ArduPlane/motor_test.cpp
+[1486/1506] Compiling ArduPlane/failsafe.cpp
+[1487/1506] Compiling ArduPlane/events.cpp
+[1488/1506] Compiling ArduPlane/control_modes.cpp
+[1489/1506] Compiling ArduPlane/arming_checks.cpp
+[1490/1506] Compiling ArduPlane/Plane.cpp
+[1491/1506] Linking build/bjpilot/lib/libAntennaTracker_libs.a
+[1492/1506] Linking build/bjpilot/lib/libAPMrover2_libs.a
+[1493/1506] Linking build/bjpilot/bin/arducopter-single
+[1494/1506] Linking build/bjpilot/bin/arducopter-octa-quad
+[1495/1506] Linking build/bjpilot/bin/arducopter-heli
+[1496/1506] Linking build/bjpilot/bin/arducopter-quad
+[1497/1506] Linking build/bjpilot/bin/arducopter-tri
+[1498/1506] Linking build/bjpilot/bin/arducopter-hexa
+[1499/1506] Linking build/bjpilot/bin/arducopter-octa
+[1500/1506] Linking build/bjpilot/bin/arducopter-y6
+[1501/1506] Linking build/bjpilot/bin/arducopter-coax
+[1502/1506] Linking build/bjpilot/bin/antennatracker
+[1503/1506] Linking build/bjpilot/bin/ardurover
+[1504/1506] Linking build/bjpilot/lib/libArduPlane_libs.a
+[1505/1506] Linking build/bjpilot/bin/arduplane
+[1506/1506] Linking build/bjpilot/bin/arduplane-tri
+Waf: Leaving directory `/src/ardupilot/build/bjpilot'
+
+BUILD SUMMARY
+Build directory: /src/ardupilot/build/bjpilot
+Target                    Text    Data  BSS    Total 
+-----------------------------------------------------
+bin/ardurover             611757  1176  29168  642101
+bin/antennatracker        472423  1128  27472  501023
+bin/arducopter-quad       774504  1208  35696  811408
+bin/arducopter-tri        767504  1208  35584  804296
+bin/arducopter-hexa       774008  1208  35696  810912
+bin/arducopter-y6         773960  1208  35696  810864
+bin/arducopter-octa       774352  1208  35696  811256
+bin/arducopter-octa-quad  774396  1208  35696  811300
+bin/arducopter-heli       758163  1208  35840  795211
+bin/arducopter-single     767904  1208  35720  804832
+bin/arducopter-coax       767104  1208  35720  804032
+bin/arduplane             798394  1204  35320  834918
+bin/arduplane-tri         788670  1204  35320  825194
+
+Build commands will be stored in build/bjpilot/compile_commands.json
+'build' finished successfully (4m26.603s)

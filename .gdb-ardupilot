@@ -1,0 +1,4 @@
+set auto-connect-native-target off
+target extended-remote 192.168.9.31:2179 
+set remote exec-file ./arducopter-hexa
+
